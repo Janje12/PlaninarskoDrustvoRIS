@@ -38,6 +38,18 @@ public class KorisnikController {
 		return "/admin/korisnik.jsp";
 	}
 	
+	@RequestMapping(value="registruj", method=RequestMethod.POST)
+	public void registrujKorisnika(Korisnik k, HttpServletRequest request) {
+		Korisnik k1 = kr.findByUsername(k.getUsername());
+		kr.findById(2);
+		String poruka = "Vec postoji korisnik sa tim korisnickim imenom pokustaje neko drugo ime!";
+		if(k1 == null) {
+			poruka = "Hvala na registraciji sacekajte da vas neki od nasih sekretara prihvati!";
+			kr.save(k);
+		}
+		request.setAttribute("poruka", poruka);
+	}
+	
 	@RequestMapping(value="obrisi", method=RequestMethod.POST)
 	public String obrisiKorisnika(String idKorisnik, HttpServletRequest request) {
 		String poruka = "Neuspesno obrisan korisnik sa ID-om " + idKorisnik + " iz baze.";

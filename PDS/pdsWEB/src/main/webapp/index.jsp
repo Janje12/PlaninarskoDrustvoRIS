@@ -1,4 +1,5 @@
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <!DOCTYPE html>
 <html>
@@ -45,14 +46,23 @@
 				<div class="grid_12">
 					<h1>
 						<a href="index.jsp">
-							<img src="images/logo.png" alt="Your Happy Family">
+							<img src="images/logo.png" alt="logo">
 						</a>
 					</h1>
 					<div class="menu_block ">
+						<c:url value="/logout" var="logoutUrl"/>
 						<sec:authorize access="isAuthenticated()">
-					 	Dobrodosli!
+					 	<p align="right">Dobrodosli <sec:authentication property="principal.username"/>!</p>
 						</sec:authorize>
+						<sec:authorize access="!isAuthenticated()">
 						<a href="/pdsWEB/login.jsp" class="donate">LOGIN</a>
+						</sec:authorize>
+						<c:url value="/logout" var="logoutUrl"/>
+						<sec:authorize access="isAuthenticated()">
+						<form name="logoutForm" action="${logoutUrl}" method="GET">
+						<a href="JAVASCRIPT:logoutForm.submit()" class="donate">LOGOUT</a>
+						</form>
+						</sec:authorize>
 						<a href="/pdsWEB/auth/register.jsp" class="donate">REGISTER</a>
 						<div class="clear"></div>
 						<nav class="horizontal-nav full-width horizontalNav-notprocessed">

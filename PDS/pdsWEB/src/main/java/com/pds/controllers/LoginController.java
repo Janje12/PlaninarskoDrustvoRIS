@@ -2,13 +2,14 @@ package com.pds.controllers;
 
 import java.util.Date;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.pds.repositories.KorisnikRepository;
 import models.Korisnik;
 
 @Controller
@@ -16,7 +17,7 @@ import models.Korisnik;
 public class LoginController {
 	
 	@Autowired
-	private KorisnikRepository kr;
+	private KorisnikController kc;
 	
 	@RequestMapping(value="login", method=RequestMethod.GET)
 	public String login() {
@@ -24,12 +25,17 @@ public class LoginController {
 	}
 	
 	@RequestMapping(value="registracija", method=RequestMethod.POST)
-	public String registrujKorisnika(String ime, String prezime, String username, String sifra, Date datumRodjenja) {
+	public String registrujKorisnika(String ime, String prezime, String username, String sifra, Date datumRodjenja, HttpServletRequest request) {
 		Korisnik k = new Korisnik(datumRodjenja, ime, prezime, username);
 	    BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 	    k.setSifra(passwordEncoder.encode(k.getSifra()));
-	    kr.save(k);
-	    return "/auth/login.jsp";
+	    kc.registrujKorisnika(k, request);
+	    return "login";
+	}
+	
+	@RequestMapping(value="logout", method=RequestMethod.GET) 
+	public String logout() {
+		return "logout";
 	}
 	
 }
