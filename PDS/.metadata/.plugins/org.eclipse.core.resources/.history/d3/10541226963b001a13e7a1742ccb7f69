@@ -1,0 +1,49 @@
+package com.pds.security;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
+
+import model.Korisnik;
+
+
+@Service("customUserDetailsService")
+public class CustomUserDetailsService implements UserDetailsService {
+	
+	@Autowired
+	private KorisnikRepository korisnikRep;
+
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		
+		Korisnik56417 user=korisnikRep.findByUsername(username);
+		System.out.println("-------------asdasdasdgasdasd-----------------------------------------"+user.getIdKorisnik());
+		
+		UserDetailsImpl userDetails = new UserDetailsImpl();
+		userDetails.setUsername(user.getUsername());
+		userDetails.setPassword(user.getPassword());
+		//userDetails.setIme(user.getIme());
+		//userDetails.setPrezime(user.getPrezime());
+		//userDetails.setDatumIsteka(user.getDatumIsteka());
+		userDetails.setRoles(user.getRole56417s());
+		return userDetails;
+	}
+	
+//	 @Autowired
+//	    private PozoristeUserRepository korisnikRepository;  
+//	    @Override
+//		public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+//			PozoristeUser user = korisnikRepository.findByUsername(username);
+//			UserDetailsImpl userDetails =new UserDetailsImpl();
+//			userDetails.setUsername(user.getUsername());
+//			userDetails.setPassword(user.getPassword());
+//			userDetails.setRoles(user.getRoles());
+//			return userDetails;
+//			
+//	    }
+	 
+}

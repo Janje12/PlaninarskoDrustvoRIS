@@ -1,0 +1,64 @@
+package com.pds.controllers;
+
+import java.util.Date;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.pds.repositories.KomentarRepository;
+
+import models.Izvestaj;
+import models.Komentar;
+import models.Korisnik;
+
+@Controller
+@RequestMapping(value="Komentar")
+public class KomentarController {
+
+	@Autowired
+	private KomentarRepository kor;
+	
+
+	@RequestMapping(value="dodaj", method=RequestMethod.POST)
+	public String dodajIzvestaj(String naslov, String sadrzaj, String idKorisnika, HttpServletRequest request) {
+		Date datumNastanka = new Date();
+		Korisnik k = kr.findById(Integer.parseInt(idKorisnika)).get();
+		Izvestaj i = ir.save(new Izvestaj(datumNastanka, naslov, sadrzaj, k));
+		String poruka = "Neuspesno dodat izvestaj sa naslovom " + naslov + " u bazu.";
+		if(i != null) {
+			poruka = "Uspesno dodat izvestaj sa naslovom " + naslov + " u bazu";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/izvestaj.jsp";
+	}
+	
+	@RequestMapping(value="obrisi", method=RequestMethod.POST)
+	public String obrisiIzvestaj(String idIzvestaj, HttpServletRequest request) {
+		String poruka = "Neuspesno obrisan izvestaj sa ID-om " + idIzvestaj + " iz baze.";
+		if(idIzvestaj != null) {
+			ir.deleteById(Integer.parseInt(idIzvestaj));
+			poruka = "Uspesno obrisan izvestaj sa ID-om " + idIzvestaj + " iz baze";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/komentar.jsp";
+	}
+	
+	@RequestMapping(value="promeniSadrzaj", method=RequestMethod.POST)
+	public String promeniSadrzajKomentara(String idIzvestaj, String sadrzaj, HttpServletRequest request) {
+		Komentar ko = kor.findById(Integer.parseInt(idIzvestaj)).get();
+		String poruka = "Neuspesno promenjen sadrzaj komentara korisnika " + ko.getKorisnik().getUsername() + " u bazi";
+		if(ko != null) {
+			ko.setSadrzaj(sadrzaj);;
+			kor.save(ko);
+			poruka = "Uspesno promenjen sadrzaj komentara korisnika " + ko.getKorisnik().getUsername() + " u bazi";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/komentar.jsp";
+	}
+	
+
+}

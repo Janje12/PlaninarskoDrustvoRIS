@@ -1,0 +1,9 @@
+package com.pds.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping(value="Rezervacija")
+public class RezervacijaController {
+
+}

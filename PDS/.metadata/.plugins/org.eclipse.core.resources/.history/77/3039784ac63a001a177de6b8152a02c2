@@ -1,0 +1,5 @@
+package com.pds.repositories;
+
+public interface KomentarRepository {
+
+}

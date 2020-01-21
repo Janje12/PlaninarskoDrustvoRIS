@@ -1,0 +1,16 @@
+package com.pds.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.pds.repositories.RezervacijaRepository;
+
+@Controller
+@RequestMapping(value="Rezervacija")
+public class RezervacijaController {
+	
+	@Autowired
+	private RezervacijaRepository rr;
+	
+	
+
+}

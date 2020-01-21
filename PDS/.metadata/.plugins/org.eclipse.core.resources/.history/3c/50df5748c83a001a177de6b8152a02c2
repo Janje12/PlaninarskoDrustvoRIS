@@ -1,0 +1,59 @@
+package com.pds.controllers;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.pds.repositories.UlogaRepository;
+
+import models.Uloga;
+
+@Controller
+@RequestMapping(value="Uloga")
+public class UlogaController {
+	
+	@Autowired
+	private UlogaRepository ur;
+	
+	@RequestMapping(value="dodaj", method=RequestMethod.POST)
+	public String dodajUlogu(String naziv, HttpServletRequest request) {
+		Uloga u = ur.save(new Uloga(naziv));
+		String poruka = "Neuspesno dodata uloga " + naziv + " u bazu.";
+		if(u != null) {
+			poruka = "Uspesno dodata uloga " + naziv + " u bazu";
+		}
+		request.setAttribute("poruka", poruka);
+	
+		return "/admin/uloga.jsp";
+	}
+	
+	@RequestMapping(value="obrisi", method=RequestMethod.POST)
+	public String obrisiUlogu(String idUloga, HttpServletRequest request) {
+		String poruka = "Neuspesno obrisana uloga sa ID-om " + idUloga + " iz baze.";
+		if(idUloga != null) {
+			ur.deleteById(Integer.parseInt(idUloga));
+			poruka = "Uspesno obrisana uloga sa ID-om " + idUloga + " iz baze";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/uloga.jsp";
+	}
+	
+	@RequestMapping(value="promeniNaizv", method=RequestMethod.POST)
+	public String promeniSifru(String idUloga, String naziv, HttpServletRequest request) {
+		Uloga u = ur.findById(Integer.parseInt(idUloga)).get();
+		String poruka = "Neuspesno promenjen naziv uloge " + u.getNaziv() + " u bazi";
+		if(u != null) {
+			u.setNaziv(naziv);
+			ur.save(u);
+			poruka = "Uspesno promenjen naziv uloge " + u.getNaziv() +
+					" u bazi";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/uloga.jsp";
+	}
+
+	
+}

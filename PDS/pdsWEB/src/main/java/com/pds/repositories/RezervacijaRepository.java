@@ -1,0 +1,12 @@
+package com.pds.repositories;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import models.Rezervacija;
+
+public interface RezervacijaRepository extends JpaRepository<Rezervacija, Integer> {
+	
+	public List<Rezervacija> findAllByVrstaRezervacije(String vrstaRezervacije);
+}

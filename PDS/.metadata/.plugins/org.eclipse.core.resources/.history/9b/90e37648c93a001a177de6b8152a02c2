@@ -1,0 +1,62 @@
+package com.pds.controllers;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.pds.repositories.PlaninarskiDomRepository;
+
+import models.Planina;
+import models.PlaninarskiDom;
+
+
+@Controller
+@RequestMapping(value="PlaninarskiDom")
+public class PlaninarskiDomController {
+
+	@Autowired
+	private PlaninarskiDomRepository pdr;
+	
+
+	@RequestMapping(value="dodaj", method=RequestMethod.POST)
+	public String dodajPlaninarskiDom(String adresa, String geolokacijaString naziv, String opis, String geolokacija, HttpServletRequest request) {
+		PlaninarskiDom pd = pdr.save(new PlaninarskiDom(naziv, opis, geolokacija));
+		String poruka = "Neuspesno dodata planinarski dom " + naziv + " u bazu.";
+		if(pd != null) {
+			poruka = "Uspesno dodat planinarski dom " + naziv + " u bazu";
+		}
+		request.setAttribute("poruka", poruka);
+	
+		return "/admin/planinarskidom.jsp";
+	}
+	
+	@RequestMapping(value="obrisi", method=RequestMethod.POST)
+	public String obrisiPlaninu(String idPLanina, HttpServletRequest request) {
+		String poruka = "Neuspesno obrisana planina sa ID-om " + idPLanina + " iz baze.";
+		if(idPLanina != null) {
+			pr.deleteById(Integer.parseInt(idPLanina));
+			poruka = "Uspesno obrisana planina sa ID-om " + idPLanina + " iz baze";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/planina.jsp";
+	}
+	
+	@RequestMapping(value="promeniOpis", method=RequestMethod.POST)
+	public String promeniOpisPlanini(String idPlanina, String opis, HttpServletRequest request) {
+		Planina p = pr.findById(Integer.parseInt(idPlanina)).get();
+		String poruka = "Neuspesno promenjen opis planine " + p.getNaziv() + " u bazi";
+		if(p != null) {
+			p.setOpis(opis);
+			pr.save(p);
+			poruka = "Uspesno promenjen opis planine " + p.getNaziv() +
+					" u bazi";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/planina.jsp";
+	}
+	
+
+}

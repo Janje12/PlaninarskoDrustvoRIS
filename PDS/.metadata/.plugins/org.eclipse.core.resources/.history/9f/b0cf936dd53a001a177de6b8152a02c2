@@ -1,0 +1,93 @@
+package com.pds.controllers;
+
+import java.util.Date;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.pds.repositories.KorisnikRepository;
+import com.pds.repositories.PlaninarskiDomRepository;
+import com.pds.repositories.RezervacijaRepository;
+import com.pds.repositories.StazaRepository;
+
+import models.Izvestaj;
+import models.Korisnik;
+import models.PlaninarskiDom;
+import models.Staza;
+
+
+@Controller
+@RequestMapping(value="Rezervacija")
+public class RezervacijaController {
+	
+	@Autowired
+	private RezervacijaRepository rr;
+	@Autowired
+	private PlaninarskiDomRepository pdr;
+	@Autowired
+	private StazaRepository sr;
+	@Autowried
+	private KorisnikRepository kr;
+	
+	@RequestMapping(value="dodaj", method=RequestMethod.POST)
+	public String dodajRezervaciju(String vrsta, Date datumDolaska, String idKorisnika, String id, HttpServletRequest request) {
+		Date datumRezervacije = new Date();
+		PlaninarskiDom pd;
+		Staza s;
+		if(vrsta.equals("planinarsko dom"))
+			pd = pdr.findById(Integer.parseInt(id)).get();
+		else
+			s = sr.findById(Integer.parseInt(id)).get();
+		Korisnik k = kr.findById(Integer.parseInt(idKorisnika)).get();
+		Izvestaj i = ir.save(new Izvestaj(datumNastanka, naslov, sadrzaj, k));
+		String poruka = "Neuspesno dodat izvestaj sa naslovom " + naslov + " u bazu.";
+		if(i != null) {
+			poruka = "Uspesno dodat izvestaj sa naslovom " + naslov + " u bazu";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/izvestaj.jsp";
+	}
+	
+	@RequestMapping(value="obrisi", method=RequestMethod.POST)
+	public String obrisiIzvestaj(String idIzvestaj, HttpServletRequest request) {
+		String poruka = "Neuspesno obrisan izvestaj sa ID-om " + idIzvestaj + " iz baze.";
+		if(idIzvestaj != null) {
+			ir.deleteById(Integer.parseInt(idIzvestaj));
+			poruka = "Uspesno obrisan izvestaj sa ID-om " + idIzvestaj + " iz baze";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/izvestaj.jsp";
+	}
+	
+	@RequestMapping(value="promeniSadrzaj", method=RequestMethod.POST)
+	public String promeniSadrzajIzvestaja(String idIzvestaj, String sadrzaj, HttpServletRequest request) {
+		Izvestaj i = ir.findById(Integer.parseInt(idIzvestaj)).get();
+		String poruka = "Neuspesno promenjen sadrzaj izvestaja korisnika " + i.getKorisnik().getUsername() + " u bazi";
+		if(i != null) {
+			i.setSadrzaj(sadrzaj);;
+			ir.save(i);
+			poruka = "Uspesno promenjen sadrzaj izvestaja korisnika " + i.getKorisnik().getUsername() + " u bazi";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/izvestaj.jsp";
+	}
+	
+	@RequestMapping(value="promeniNaslov", method=RequestMethod.POST)
+	public String promeniNaslovIzvestaja(String idIzvestaj, String naslov, HttpServletRequest request) {
+		Izvestaj i = ir.findById(Integer.parseInt(idIzvestaj)).get();
+		String poruka = "Neuspesno promenjen naslov izvestaja korisnika " + i.getKorisnik().getUsername() + " u bazi";
+		if(i != null) {
+			i.setNaslov(naslov);
+			ir.save(i);
+			poruka = "Uspesno promenjen naslov izvestaja korisnika " + i.getKorisnik().getUsername() + " u bazi";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/izvestaj.jsp";
+	}
+
+
+}

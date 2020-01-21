@@ -1,0 +1,77 @@
+package com.pds.controllers;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.pds.repositories.KomentarRepository;
+import com.pds.repositories.KorisnikRepository;
+
+import models.Komentar;
+import models.Korisnik;
+
+@Controller
+@RequestMapping(value="Komentar")
+public class KomentarController {
+
+	@Autowired
+	private KomentarRepository kor;
+	@Autowired
+	private KorisnikRepository kr;
+
+	@RequestMapping(value="dodaj", method=RequestMethod.POST)
+	public String dodajKomentar(String sadrzaj, String idKorisnika, HttpServletRequest request) {
+		Date datumNastanka = new Date();
+		Korisnik k = kr.findById(Integer.parseInt(idKorisnika)).get();
+		Komentar ko = kor.save(new Komentar(datumNastanka, sadrzaj, k));
+		String poruka = "Neuspesno dodat komentar sa sadrzajom " + sadrzaj + " u bazu.";
+		if(ko != null) {
+			poruka = "Uspesno dodat komentar sa sadrzajom " + sadrzaj + " u bazu";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/komentar.jsp";
+	}
+	
+	@RequestMapping(value="obrisi", method=RequestMethod.POST)
+	public String obrisiKomentar(String idKomentar, HttpServletRequest request) {
+		String poruka = "Neuspesno obrisan komentar sa ID-om " + idKomentar + " iz baze.";
+		if(idKomentar != null) {
+			kor.deleteById(Integer.parseInt(idKomentar));
+			poruka = "Uspesno obrisan komentar sa ID-om " + idKomentar + " iz baze";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/komentar.jsp";
+	}
+	
+	@RequestMapping(value="promeniSadrzaj", method=RequestMethod.POST)
+	public String promeniSadrzajKomentara(String idIzvestaj, String sadrzaj, HttpServletRequest request) {
+		Komentar ko = kor.findById(Integer.parseInt(idIzvestaj)).get();
+		String poruka = "Neuspesno promenjen sadrzaj komentara korisnika " + ko.getKorisnik().getUsername() + " u bazi";
+		if(ko != null) {
+			ko.setSadrzaj(sadrzaj);;
+			kor.save(ko);
+			poruka = "Uspesno promenjen sadrzaj komentara korisnika " + ko.getKorisnik().getUsername() + " u bazi";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/komentar.jsp";
+	}
+	
+	@RequestMapping(value="lista", method=RequestMethod.POST) 
+	public String listaKomentara(HttpServletRequest request) {
+		List<Komentar> lko = kor.findAll();
+		String poruka = "Neuspesno dobavljena lista komentara.";
+		if(lko != null) {
+			poruka = "Uspesno dobavljena lista komentara.";
+			request.setAttribute("komentari", lko);
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/komentar.jsp";
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.pds.controllers;
+
+@Controller
+@RequestMapping(value="Korisnik")
+public class KorisnikController {
+
+}
