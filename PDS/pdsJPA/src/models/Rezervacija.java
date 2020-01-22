@@ -16,6 +16,7 @@ public class Rezervacija implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="IDREZERVACIJA")
 	private int idRezervacija;
 
 	@Temporal(TemporalType.DATE)
@@ -40,25 +41,19 @@ public class Rezervacija implements Serializable {
 
 	public Rezervacija() {
 	}
-	
-	public Rezervacija(Date datumDolaska, Date datumRezervacije, String vrstaRezervacije, Korisnik korisnik,
-			PlaninarskiDom planinarskidom) {
-		super();
-		this.datumDolaska = datumDolaska;
-		this.datumRezervacije = datumRezervacije;
-		this.vrstaRezervacije = vrstaRezervacije;
-		this.korisnik = korisnik;
-		this.planinarskidom = planinarskidom;
+
+	public Rezervacija(Date datumDolaska2, Date datumRezervacije2, String vrsta, Korisnik k, PlaninarskiDom pd) {
+		datumDolaska = datumDolaska2;
+		datumRezervacije = datumRezervacije2;
+		vrstaRezervacije = vrsta;
+		planinarskidom = pd;
 	}
 
-	public Rezervacija(Date datumDolaska, Date datumRezervacije, String vrstaRezervacije, Korisnik korisnik,
-			Znamenitost znamenitost) {
-		super();
-		this.datumDolaska = datumDolaska;
-		this.datumRezervacije = datumRezervacije;
-		this.vrstaRezervacije = vrstaRezervacije;
-		this.korisnik = korisnik;
-		this.znamenitost = znamenitost;
+	public Rezervacija(Date datumDolaska2, Date datumRezervacije2, String vrsta, Korisnik k, Znamenitost z) {
+		datumDolaska = datumDolaska2;
+		datumRezervacije = datumRezervacije2;
+		vrstaRezervacije = vrsta;
+		znamenitost = z;
 	}
 
 	public int getIdRezervacija() {

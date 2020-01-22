@@ -16,6 +16,7 @@ public class Uloga implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="IDULOGA")
 	private int idUloga;
 
 	private String naziv;
@@ -27,9 +28,8 @@ public class Uloga implements Serializable {
 	public Uloga() {
 	}
 
-	public Uloga(String naziv) {
-		super();
-		this.naziv = naziv;
+	public Uloga(String naziv2) {
+		naziv = naziv2;
 	}
 
 	public int getIdUloga() {

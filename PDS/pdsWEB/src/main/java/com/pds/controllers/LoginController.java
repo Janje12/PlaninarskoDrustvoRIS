@@ -1,11 +1,11 @@
 package com.pds.controllers;
 
-import java.util.Date;
+import java.text.ParseException;
+import java.sql.Date;
 
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -25,12 +25,14 @@ public class LoginController {
 	}
 	
 	@RequestMapping(value="registracija", method=RequestMethod.POST)
-	public String registrujKorisnika(String ime, String prezime, String username, String sifra, Date datumRodjenja, HttpServletRequest request) {
-		Korisnik k = new Korisnik(datumRodjenja, ime, prezime, username);
-	    BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-	    k.setSifra(passwordEncoder.encode(k.getSifra()));
-	    kc.registrujKorisnika(k, request);
-	    return "login";
+	public String registrujKorisnika(String ime, String prezime, String username, String sifra, String datumRodjenja, HttpServletRequest request) throws ParseException {
+	    Date d = Date.valueOf(datumRodjenja);
+		Korisnik k = new Korisnik(d, ime, prezime, username);
+	    k.setSifra(sifra);
+	    if(kc.registrujKorisnika(k, request))
+	    	return "redirect:../login.jsp";
+	    else 
+	    	return "auth/register";
 	}
 	
 	@RequestMapping(value="logout", method=RequestMethod.GET) 

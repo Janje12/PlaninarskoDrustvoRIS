@@ -60,18 +60,21 @@
 				<div class="menu_block ">
 					<sec:authorize access="isAuthenticated()">
 						<p align="right">
-							Dobrodosli
-							<sec:authentication property="principal.username" />
-							!
+							Dobrodosli <sec:authentication property="principal.username" />!
 						</p>
 					</sec:authorize>
 					<sec:authorize access="!isAuthenticated()">
 						<a href="/pdsWEB/login.jsp" class="donate">LOGIN</a>
 					</sec:authorize>
+					<c:url value="/logout" var="logoutUrl" />
 					<sec:authorize access="isAuthenticated()">
-						<a href="/pdsWEB/logout.jsp" class="donate">LOGOUT</a>
+						<form name="logoutForm" action="${logoutUrl}" method="GET">
+							<a href="JAVASCRIPT:logoutForm.submit()" class="donate">LOGOUT</a>
+						</form>
 					</sec:authorize>
-					<a href="/pdsWEB/auth/register.jsp" class="donate">REGISTER</a>
+					<sec:authorize access="!isAuthenticated()">
+						<a href="/pdsWEB/auth/register.jsp" class="donate">REGISTER</a>
+					</sec:authorize>
 					<div class="clear"></div>
 					<nav class="horizontal-nav full-width horizontalNav-notprocessed">
 						<ul class="sf-menu">
@@ -111,7 +114,9 @@
 						<td><input class="button" type="submit" value="Log in"></td>
 					</tr>
 				</table>
-				<p class="message">Nemate nalog? <a href="/auth/register.jsp">Registrujte se</a></p>
+				<p class="message">
+					Nemate nalog? <a href="/auth/register.jsp">Registrujte se</a>
+				</p>
 			</form>
 		</div>
 	</div>

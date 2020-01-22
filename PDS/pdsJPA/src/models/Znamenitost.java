@@ -16,6 +16,7 @@ public class Znamenitost implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="IDZNAMENITOST")
 	private int idZnamenitost;
 
 	private String naziv;
@@ -39,12 +40,11 @@ public class Znamenitost implements Serializable {
 	public Znamenitost() {
 	}
 
-	public Znamenitost(String naziv, String opis, String tip, Staza staza) {
-		super();
-		this.naziv = naziv;
-		this.opis = opis;
-		this.tip = tip;
-		this.staza = staza;
+	public Znamenitost(String naziv2, String opis2, String tip2, Staza s) {
+		naziv = naziv2;
+		opis = opis2;
+		tip = tip2;
+		staza = s;
 	}
 
 	public int getIdZnamenitost() {

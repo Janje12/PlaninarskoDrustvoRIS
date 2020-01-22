@@ -16,6 +16,7 @@ public class Izvestaj implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="IDIZVESTAJ")
 	private int idIzvestaj;
 
 	@Temporal(TemporalType.DATE)
@@ -32,12 +33,11 @@ public class Izvestaj implements Serializable {
 	public Izvestaj() {
 	}
 
-	public Izvestaj(Date datumNastanka, String naslov, String sadrzaj, Korisnik korisnik) {
-		super();
-		this.datumNastanka = datumNastanka;
-		this.naslov = naslov;
-		this.sadrzaj = sadrzaj;
-		this.korisnik = korisnik;
+	public Izvestaj(Date datumNastanka2, String naslov2, String sadrzaj2, Korisnik k) {
+		datumNastanka = datumNastanka2;
+		naslov = naslov2;
+		sadrzaj = sadrzaj2;
+		korisnik = k;
 	}
 
 	public int getIdIzvestaj() {

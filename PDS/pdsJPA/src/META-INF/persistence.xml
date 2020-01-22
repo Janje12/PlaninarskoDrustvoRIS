@@ -10,6 +10,7 @@
 		<class>models.Uloga</class>
 		<class>models.Znamenitost</class>
 		<class>models.Komentar</class>
+		<class>models.Planinarskidom</class>
 		<properties>
 			<property name="javax.persistence.jdbc.user" value="root"/>
 			<property name="javax.persistence.jdbc.password" value="nikjan00"/>

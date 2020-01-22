@@ -16,6 +16,7 @@ public class Staza implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="IDSTAZA")
 	private int idStaza;
 
 	private double duzina;

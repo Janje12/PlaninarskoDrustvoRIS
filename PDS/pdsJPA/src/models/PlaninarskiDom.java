@@ -16,6 +16,7 @@ public class PlaninarskiDom implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="IDPLANINARSKIDOM")
 	private int idPlaninarskiDom;
 
 	private String adresa;

@@ -59,7 +59,9 @@
 						<a href="JAVASCRIPT:logoutForm.submit()" class="donate">LOGOUT</a>
 						</form>
 						</sec:authorize>
+						<sec:authorize access="!isAuthenticated()">
 						<a href="/pdsWEB/auth/register.jsp" class="donate">REGISTER</a>
+						</sec:authorize>
 						<div class="clear"></div>
 						<nav class="horizontal-nav full-width horizontalNav-notprocessed">
 							<ul class="sf-menu">

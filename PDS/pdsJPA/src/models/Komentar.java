@@ -16,6 +16,7 @@ public class Komentar implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="IDKOMENTAR")
 	private int idKomentar;
 
 	@Temporal(TemporalType.DATE)
@@ -34,11 +35,10 @@ public class Komentar implements Serializable {
 	public Komentar() {
 	}
 
-	public Komentar(Date datumNastanka, String sadrzaj, Korisnik korisnik) {
-		super();
-		this.datumNastanka = datumNastanka;
-		this.sadrzaj = sadrzaj;
-		this.korisnik = korisnik;
+	public Komentar(Date datumNastanka2, String sadrzaj2, Korisnik k) {
+		datumNastanka = datumNastanka2;
+		sadrzaj = sadrzaj2;
+		korisnik = k;
 	}
 
 	public int getIdKomentar() {

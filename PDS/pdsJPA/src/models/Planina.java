@@ -16,6 +16,7 @@ public class Planina implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="IDPLANINA")
 	private int idPlanina;
 
 	private String geolokacija;
@@ -35,11 +36,10 @@ public class Planina implements Serializable {
 	public Planina() {
 	}
 
-	public Planina(String naziv, String opis, String geolokacija) {
-		super();
-		this.geolokacija = geolokacija;
-		this.naziv = naziv;
-		this.opis = opis;
+	public Planina(String naziv2, String opis2, String geolokacija2) {
+		naziv = naziv2;
+		opis = opis2;
+		geolokacija = geolokacija2;
 	}
 
 	public int getIdPlanina() {
