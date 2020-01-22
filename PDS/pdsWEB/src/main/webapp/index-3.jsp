@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Get Involved</title>
+		<title>Smestaj</title>
 		<meta charset="iso-8859-2">
 		<meta name = "format-detection" content = "telephone=no" />
 		<link rel="icon" href="images/favicon.ico">
@@ -27,17 +27,6 @@
 			$('.gallery a.gal').touchTouch();
 			});
 		</script>
-		<!--[if lt IE 8]>
-		<div style=' clear: both; text-align:center; position: relative;'>
-			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-			<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-			</a>
-		</div>
-		<![endif]-->
-		<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-		<link rel="stylesheet" media="screen" href="css/ie.css">
-		<![endif]-->
 	</head>
 	<body class="" id="top">
 <!--==============================header=================================-->
@@ -158,45 +147,38 @@
 				</div>
 			</div>
 		</div>
-		<div class="bottom_block">
-			<div class="container_12">
-				<div class="grid_4 ">
-					<h3>Stay Informed</h3>
-					<div class="text1">Subscribe to Our Newsletter</div>
-					<form id="newsletter">
-						<div class="rel">
-							<div class="success">Your subscribe request has been sent!</div>
-							<label class="email">
-								<input type="email" value="Enter your Email" >
-								<span class="error">*This is not a valid email address.</span>
-							</label>
-						</div>
-						<a href="#" class="btn" data-type="submit">Submit</a>
-					</form>
-				</div>
-				<div class="grid_5 prefix_3">
-					<h3>Stay Connected</h3>
-					<div class="text1">Follow Us on Social Media Accounts </div>
-					Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra
-					<div class="socials">
-						<a href="#"><div class="fa fa-twitter"></div></a>
-						<a href="#"><div class="fa fa-facebook"></div></a>
-						<a href="#"><div class="fa fa-pinterest-square"></div></a>
-						<a href="#"><div class="fa fa-google-plus"></div></a>
-						<a href="#"><div class="fa fa-instagram"></div></a>
+	<div class="bottom_block">
+		<div class="container_12">
+			<div class="grid_4 ">
+				<h3>Ostanite informisani</h3>
+				<div class="text1">Dobijajte email-ove o ponudama, akcijama i dogadjajima</div>
+				<form id="newsletter">
+					<div class="rel">
+						<div class="success">Poslato</div>
+						<label class="email"> <input type="email"
+							value="Unesite vas email"> <span class="error">Ovo nije validna email adresa.</span>
+						</label>
 					</div>
+					<a href="#" class="btn" data-type="submit">Prijavi se</a>
+				</form>
+			</div>
+			<div class="grid_5 prefix_3">
+				<h3>Ostanite povezani</h3>
+				<div class="text1">Pratite nas na Socijalnim mrezama!</div>
+				<div class="socials">
+					<a href="#">
+					<div class="fa fa-twitter"></div></a> <a href="#">
+					<div class="fa fa-facebook"></div></a> <a href="#">
+					<div class="fa fa-pinterest-square"></div></a> <a href="#">
+					<div class="fa fa-google-plus"></div></a> <a href="#">
+					<div class="fa fa-instagram"></div></a>
 				</div>
 			</div>
 		</div>
-<!--==============================footer=================================-->
-		<footer>
-			<div class="container_12">
-				<div class="grid_12">
-					<div class="copy">
-						Life &copy; 2014 | <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com </a>
-					</div>
-				</div>
-			</div>
-		</footer>
+	</div>
+	<!--==============================footer=================================-->
+	<footer>
+
+	</footer>
 	</body>
 </html>

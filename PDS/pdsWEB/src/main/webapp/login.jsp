@@ -123,45 +123,35 @@
 	<div class="bottom_block">
 		<div class="container_12">
 			<div class="grid_4 ">
-				<h3>Stay Informed</h3>
-				<div class="text1">Subscribe to Our Newsletter</div>
+				<h3>Ostanite informisani</h3>
+				<div class="text1">Dobijajte email-ove o ponudama, akcijama i dogadjajima</div>
 				<form id="newsletter">
 					<div class="rel">
-						<div class="success">Your subscribe request has been sent!</div>
+						<div class="success">Poslato</div>
 						<label class="email"> <input type="email"
-							value="Enter your Email"> <span class="error">*This
-								is not a valid email address.</span>
+							value="Unesite vas email"> <span class="error">Ovo nije validna email adresa.</span>
 						</label>
 					</div>
-					<a href="#" class="btn" data-type="submit">Submit</a>
+					<a href="#" class="btn" data-type="submit">Prijavi se</a>
 				</form>
 			</div>
 			<div class="grid_5 prefix_3">
-				<h3>Stay Connected</h3>
-				<div class="text1">Follow Us on Social Media Accounts</div>
-				Cras facilisis, nulla vel viverra auctor, leo magna sodales felis,
-				quis malesuada nibh odio ut velit. Proin pharetra
+				<h3>Ostanite povezani</h3>
+				<div class="text1">Pratite nas na Socijalnim mrezama!</div>
 				<div class="socials">
-					<a href="#"><div class="fa fa-twitter"></div></a> <a href="#"><div
-							class="fa fa-facebook"></div></a> <a href="#"><div
-							class="fa fa-pinterest-square"></div></a> <a href="#"><div
-							class="fa fa-google-plus"></div></a> <a href="#"><div
-							class="fa fa-instagram"></div></a>
+					<a href="#">
+					<div class="fa fa-twitter"></div></a> <a href="#">
+					<div class="fa fa-facebook"></div></a> <a href="#">
+					<div class="fa fa-pinterest-square"></div></a> <a href="#">
+					<div class="fa fa-google-plus"></div></a> <a href="#">
+					<div class="fa fa-instagram"></div></a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!--==============================footer=================================-->
 	<footer>
-		<div class="container_12">
-			<div class="grid_12">
-				<div class="copy">
-					Life &copy; 2014 | <a href="#">Privacy Policy</a> <br> Website
-					designed by <a href="http://www.templatemonster.com/"
-						rel="nofollow">TemplateMonster.com </a>
-				</div>
-			</div>
-		</div>
+
 	</footer>
 </body>
 </html>

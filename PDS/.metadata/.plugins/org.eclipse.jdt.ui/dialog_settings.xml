@@ -6,6 +6,7 @@
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
+		<item key="dontShowOverwriteEntitesFromSchemas.warning" value="true"/>
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>

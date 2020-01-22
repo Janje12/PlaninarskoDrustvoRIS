@@ -21,7 +21,6 @@ public class CustomUserDetailsService implements UserDetailsService {
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		System.out.println(username);
 		Korisnik k = kr.findByUsername(username);
-		System.err.println("-------------------------Ucitan korisnik "  + k.getIme());
 		UserDetailsImpl userDetails = new UserDetailsImpl(k);
 		userDetails.setUsername(k.getUsername());
 		BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
