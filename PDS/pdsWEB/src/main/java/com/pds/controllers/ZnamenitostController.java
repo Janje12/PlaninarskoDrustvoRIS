@@ -72,7 +72,7 @@ public class ZnamenitostController {
 			request.setAttribute("znamenitosti", lz);
 		}
 		request.setAttribute("poruka", poruka);
-		return "/admin/znamenitosti.jsp";
+		return "/admin/znamenitost.jsp";
 	}
 	
 }

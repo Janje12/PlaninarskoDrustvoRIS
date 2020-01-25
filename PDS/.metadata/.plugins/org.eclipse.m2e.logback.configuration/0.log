@@ -6524,3 +6524,1199 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-01-22 21:03:57,627 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-01-22 21:03:57,631 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-01-22 21:03:57,643 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-22 21:07:16,019 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-22 21:07:29,391 [Worker-7: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier  to /pdsJPA/target/classes
+2020-01-22 21:07:38,780 [Worker-4: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 13:30:04,696 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-23 13:30:29,340 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-23 13:30:29,355 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 13:30:29,410 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-23 13:30:29,420 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsJPA\src\test\resources
+2020-01-23 13:30:37,290 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier  to /pdsJPA/target/classes
+2020-01-23 13:30:40,182 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:30:40,271 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 13:30:40,295 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:30:40,300 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:30:40,300 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:36:33,518 [Worker-11: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 13:38:47,017 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:38:47,019 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:38:47,019 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:38:47,022 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:38:47,026 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:40:31,275 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:40:31,276 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:40:31,276 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:40:31,292 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:40:31,300 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:40:56,543 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:40:56,544 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:40:56,556 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:40:56,561 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:40:56,564 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:41:47,293 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:41:47,296 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:41:47,299 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:41:47,305 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:41:47,305 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:41:59,163 [Worker-5: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 13:42:48,622 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:42:48,623 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:42:48,623 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:42:48,627 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:42:48,627 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:42:51,601 [Worker-17: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 13:45:10,686 [Worker-11: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 13:45:45,479 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:45:45,480 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:45:45,484 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:45:45,491 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:45:45,497 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:45:49,916 [Worker-16: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 13:46:35,554 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:46:35,555 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:46:35,559 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:46:35,571 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:46:35,574 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:47:21,138 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:47:21,142 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:47:21,146 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:47:21,153 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:47:21,153 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:47:22,889 [Worker-5: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 13:48:10,683 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:48:10,684 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:48:10,684 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:48:10,687 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:48:10,687 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:48:12,771 [Worker-21: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 13:48:38,843 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:48:38,847 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:48:38,847 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:48:38,852 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:48:38,852 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:53:05,044 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:53:05,045 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:53:05,045 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:53:05,049 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:53:05,052 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:54:14,428 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:54:14,433 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:54:14,435 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:54:14,441 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:54:14,441 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:55:54,494 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:55:54,495 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:55:54,501 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:55:54,508 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:55:54,512 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:56:08,467 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:56:08,515 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 13:56:08,556 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:56:08,570 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:56:08,570 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:57:50,156 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:57:50,158 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 13:57:50,178 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:57:50,184 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:57:50,184 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:57:57,276 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:57:57,277 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 13:57:57,281 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:57:57,286 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:57:57,286 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:58:04,511 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:58:04,513 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 13:58:04,547 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:58:04,563 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:58:04,572 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:58:17,755 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:58:17,762 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 13:58:17,770 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:58:17,775 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:58:17,776 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:58:45,726 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:58:45,727 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 13:58:45,731 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:58:45,734 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:58:45,737 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:59:10,368 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-23 13:59:10,393 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 13:59:10,408 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-23 13:59:10,492 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsJPA\src\test\resources
+2020-01-23 13:59:13,000 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:59:13,001 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 13:59:13,011 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:59:13,018 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:59:13,022 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 13:59:19,980 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:59:19,982 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 13:59:19,991 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 13:59:19,998 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 13:59:20,002 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:00:03,384 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:00:03,390 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:00:03,400 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:00:03,406 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:00:03,406 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:00:12,346 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:00:12,347 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:00:12,353 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:00:12,356 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:00:12,365 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:00:19,834 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:00:19,839 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:00:19,851 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:00:19,857 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:00:19,858 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:00:22,135 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:00:22,137 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:00:22,143 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:00:22,147 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:00:22,150 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:00:52,182 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:00:52,187 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:00:52,195 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:00:52,201 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:00:52,202 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:01:02,820 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:01:02,822 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:01:02,826 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:01:02,829 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:01:02,829 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:01:53,671 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:01:53,672 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:01:53,681 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:01:53,689 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:01:53,690 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:02:01,041 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:02:01,044 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:02:01,061 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:02:01,076 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:02:01,084 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:02:16,443 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:02:16,447 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:02:16,454 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:02:16,459 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:02:16,460 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:03:48,052 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:03:48,054 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:03:48,058 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:03:48,061 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:03:48,070 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:04:43,659 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:04:43,677 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:04:43,682 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:04:43,692 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:04:43,692 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:06:31,024 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:06:31,025 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:06:31,061 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:06:31,075 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:06:31,082 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:06:32,858 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:06:32,863 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:06:32,870 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:06:32,875 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:06:32,876 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:06:50,624 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:06:50,624 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:06:50,625 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:06:50,628 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:06:50,630 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:06:53,534 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:06:53,534 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:06:53,535 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:06:53,539 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:06:53,539 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:07:01,438 [Worker-19: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:07:57,293 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:07:57,305 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:07:57,316 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:07:57,328 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:07:57,329 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:08:05,332 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:08:05,333 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:08:05,333 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:08:05,336 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:08:05,336 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:08:07,771 [Worker-26: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:08:44,330 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:08:44,333 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:08:44,343 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:08:44,347 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:08:44,353 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:08:47,103 [Worker-19: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:09:36,267 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:09:36,273 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:09:36,278 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:09:36,280 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:09:36,283 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:09:41,410 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:09:41,411 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:09:41,415 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:09:41,420 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:09:41,424 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:10:07,388 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:10:07,389 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:10:07,403 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:10:07,411 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:10:07,418 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:10:31,021 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:10:31,024 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:10:31,027 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:10:31,031 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:10:31,031 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:11:18,889 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:11:18,889 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:11:18,890 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:11:18,894 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:11:18,894 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:11:20,832 [Worker-24: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:13:08,959 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:13:08,959 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:13:08,963 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:13:08,966 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:13:08,969 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:13:13,559 [Worker-5: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:15:36,231 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:15:36,234 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:15:36,237 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:15:36,240 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:15:36,246 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:16:39,565 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:16:39,566 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:16:39,566 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:16:39,578 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:16:39,582 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:16:44,204 [Worker-32: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:17:38,742 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:17:38,747 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:17:38,750 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:17:38,754 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:17:38,754 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:17:56,004 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:17:56,005 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:17:56,006 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:17:56,009 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:17:56,012 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:18:02,406 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:18:02,408 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:18:02,411 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:18:02,415 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:18:02,415 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:18:04,657 [Worker-5: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:18:04,657 [Worker-5: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:18:04,663 [Worker-5: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:18:04,667 [Worker-5: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:18:04,670 [Worker-5: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:18:04,943 [Worker-5: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:18:54,953 [Worker-33: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:18:54,954 [Worker-33: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:18:54,954 [Worker-33: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:18:54,958 [Worker-33: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:18:54,963 [Worker-33: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:18:55,245 [Worker-33: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:20:09,317 [Worker-30: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:20:09,317 [Worker-30: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:20:09,323 [Worker-30: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:20:09,328 [Worker-30: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:20:09,331 [Worker-30: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:20:09,645 [Worker-30: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:21:19,995 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:21:19,996 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:21:19,997 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:21:20,001 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:21:20,008 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:21:24,748 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:21:24,775 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:21:24,786 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:21:24,794 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:21:24,794 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:21:28,560 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:21:28,561 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:21:28,563 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:21:28,569 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:21:28,573 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:21:48,012 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:21:48,018 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:21:48,023 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:21:48,029 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:21:48,029 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:23:33,291 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:23:33,291 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:23:33,292 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:23:33,298 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:23:33,326 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:31:07,072 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:31:07,075 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:31:07,078 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:31:07,084 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:31:07,085 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:33:18,246 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:33:18,246 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:33:18,249 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:33:18,253 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:33:18,256 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:34:03,158 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:34:03,162 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:34:03,166 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:34:03,172 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:34:03,172 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:36:20,385 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:36:20,385 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:36:20,386 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:36:20,389 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:36:20,389 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:36:30,702 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:36:30,702 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:36:30,703 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:36:30,711 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:36:30,711 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:37:02,783 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:37:02,784 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:37:02,794 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:37:02,800 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:37:02,804 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:37:41,687 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:37:41,691 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:37:41,694 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:37:41,699 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:37:41,699 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:37:43,482 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:37:43,483 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:37:43,483 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:37:43,485 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:37:43,488 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:37:51,098 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:37:51,101 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:37:51,104 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:37:51,109 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:37:51,109 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:37:52,805 [Worker-26: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:38:29,608 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:38:29,615 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:38:29,625 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:38:29,632 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:38:29,632 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:38:39,766 [Worker-19: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:39:11,714 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:39:11,715 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:39:11,752 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:39:11,776 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:39:11,776 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:39:23,054 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:39:23,055 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:39:23,062 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:39:23,067 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:39:23,069 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:39:27,348 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:39:27,353 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:39:27,362 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:39:27,366 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:39:27,367 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:39:28,776 [Worker-37: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:40:29,595 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:40:29,596 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:40:29,596 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:40:29,602 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:40:29,602 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:40:51,196 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:40:51,197 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:40:51,199 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:40:51,209 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:40:51,212 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:41:00,277 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:41:00,323 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:41:00,335 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:41:00,345 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:41:00,345 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:41:08,311 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:41:08,312 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:41:08,313 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:41:08,315 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:41:08,324 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:41:13,078 [Worker-19: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:42:04,449 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:42:04,452 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:42:04,458 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:42:04,461 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:42:04,465 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:42:54,787 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:42:54,791 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:42:54,795 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:42:54,800 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:42:54,800 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:43:14,987 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:43:14,988 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:43:14,988 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:43:14,990 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:43:14,993 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:43:37,171 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:43:37,173 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:43:37,176 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:43:37,180 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:43:37,180 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:43:52,760 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:43:52,760 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:43:52,764 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:43:52,769 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:43:52,772 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:43:57,514 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:43:57,517 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:43:57,520 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:43:57,525 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:43:57,525 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:43:58,945 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:43:58,946 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:43:58,946 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:43:58,950 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:43:58,950 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:44:03,723 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:44:03,724 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:44:03,724 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:44:03,744 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:44:03,745 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:44:07,385 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:44:07,385 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:44:07,393 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:44:07,403 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:44:07,407 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:44:13,610 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:44:13,615 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:44:13,617 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:44:13,622 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:44:13,622 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:44:17,479 [Worker-38: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:44:41,217 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:44:41,217 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:44:41,217 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:44:41,221 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:44:41,222 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:44:55,993 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:44:55,993 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:44:55,996 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:44:56,000 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:44:56,003 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:45:08,443 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:45:08,446 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:45:08,448 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:45:08,452 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:45:08,453 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:45:55,187 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:45:55,188 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:45:55,188 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:45:55,190 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:45:55,192 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:46:17,547 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:46:17,550 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:46:17,554 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:46:17,558 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:46:17,558 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:46:38,646 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:46:38,646 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:46:38,649 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:46:38,653 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:46:38,656 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:46:42,507 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:46:42,510 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:46:42,513 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:46:42,517 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:46:42,517 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:47:28,241 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:47:28,241 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:47:28,241 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:47:28,243 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:47:28,243 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:47:29,284 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:47:29,284 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:47:29,284 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:47:29,298 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:47:29,298 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:47:48,713 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:47:48,714 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:47:48,718 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:47:48,723 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:47:48,726 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:47:51,238 [Worker-19: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:48:08,760 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:48:08,765 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:48:08,768 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:48:08,770 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:48:08,772 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:48:11,678 [Worker-36: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:48:11,690 [Worker-26: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:48:33,798 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:48:33,807 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:48:33,810 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:48:33,816 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:48:33,816 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:48:42,252 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:48:42,252 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:48:42,253 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:48:42,255 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:48:42,260 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:48:45,699 [Worker-5: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:49:07,809 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:49:07,812 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:49:07,815 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:49:07,817 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:49:07,820 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:49:30,070 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:49:30,073 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:49:30,076 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:49:30,080 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:49:30,080 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:49:40,804 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:49:40,804 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:49:40,805 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:49:40,806 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:49:40,809 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:51:47,560 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:51:47,563 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:51:47,569 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:51:47,573 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:51:47,573 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:51:59,034 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:51:59,036 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:51:59,042 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:51:59,047 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:51:59,050 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:53:13,654 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:53:13,659 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:53:13,667 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:53:13,673 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:53:13,673 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:53:49,839 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:53:49,841 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:53:49,846 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:53:49,848 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:53:49,848 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:53:57,636 [Worker-38: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:54:30,352 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:54:30,353 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:54:30,361 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:54:30,363 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:54:30,367 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:54:32,361 [Worker-19: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:55:06,225 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:55:06,229 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:55:06,235 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:55:06,237 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:55:06,240 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:55:14,236 [Worker-39: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:55:40,305 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:55:40,307 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:55:40,316 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:55:40,321 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:55:40,323 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:55:42,637 [Worker-19: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:56:04,045 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:56:04,050 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:56:04,059 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:56:04,062 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:56:04,081 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:56:07,443 [Worker-40: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:56:30,666 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:56:30,668 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:56:30,678 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:56:30,688 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:56:30,694 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:56:46,247 [Worker-19: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 14:59:15,636 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:59:15,641 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:59:15,649 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:59:15,652 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:59:15,655 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:59:27,539 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:59:27,541 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:59:27,545 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:59:27,549 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:59:27,552 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:59:28,784 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:59:28,786 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 14:59:28,795 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 14:59:28,800 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 14:59:28,803 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 14:59:31,849 [Worker-38: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 15:00:03,383 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:00:03,389 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 15:00:03,399 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:00:03,402 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:00:03,406 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 15:00:23,177 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 15:03:28,627 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:03:28,628 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-23 15:03:28,637 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:03:28,643 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:03:28,648 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 15:03:41,637 [Worker-38: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 15:05:06,127 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:05:06,130 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:05:06,133 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:05:06,135 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:05:06,137 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 15:05:15,724 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:05:15,724 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:05:15,724 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:05:15,729 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:05:15,731 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 15:05:22,156 [Worker-42: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-23 15:05:45,301 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:05:45,305 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:05:45,308 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:05:45,313 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:05:45,313 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 15:05:53,496 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:05:53,497 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:05:53,497 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:05:53,499 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:05:53,499 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 15:06:01,913 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:06:01,913 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:06:01,913 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:06:01,918 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:06:01,918 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 15:06:58,686 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:06:58,687 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:06:58,691 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:06:58,696 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:06:58,701 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 15:07:02,472 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:07:02,475 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:07:02,478 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-23 15:07:02,482 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-23 15:07:02,482 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-23 15:07:04,469 [Worker-38: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 15:23:12,385 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-01-24 15:24:21,321 [Worker-7: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier  to /pdsJPA/target/classes
+2020-01-24 15:24:22,498 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:24:22,507 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:24:22,580 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:24:22,589 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:24:22,589 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:24:47,782 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:24:47,787 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:24:47,788 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:24:47,792 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:24:47,792 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:24:58,669 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:24:58,669 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:24:58,670 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:24:58,677 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:24:58,772 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:26:07,790 [Worker-11: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:26:07,791 [Worker-11: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:26:07,791 [Worker-11: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:26:07,810 [Worker-11: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:26:07,818 [Worker-11: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:26:08,582 [Worker-11: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 15:28:36,840 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:28:36,844 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:28:36,847 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:28:36,853 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:28:36,854 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:29:23,031 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:29:23,032 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:29:23,032 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:29:23,037 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:29:23,076 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:29:59,801 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:29:59,804 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:29:59,807 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:29:59,811 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:29:59,812 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:30:21,654 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:30:21,655 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:30:21,659 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:30:21,671 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:30:21,675 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:32:00,979 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:32:00,982 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:32:00,986 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:32:00,992 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:32:00,992 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:32:32,279 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:32:32,279 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:32:32,279 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:32:32,284 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:32:32,284 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:32:40,721 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:32:40,721 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:32:40,722 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:32:40,727 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:32:40,727 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:34:22,285 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:34:22,285 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:34:22,310 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:34:22,338 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:34:22,344 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:35:03,724 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:35:03,752 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:35:03,776 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:35:03,817 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:35:03,817 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:40:08,659 [Worker-19: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 15:41:52,548 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:41:52,549 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:41:52,549 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:41:52,743 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:41:52,743 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:42:43,297 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:42:43,302 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:42:43,332 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:42:43,366 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:42:43,373 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:42:57,778 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:42:57,785 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:42:57,794 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:42:57,805 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:42:57,805 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:43:02,317 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:43:02,320 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:43:02,339 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:43:02,342 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:43:02,346 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:43:48,462 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:43:48,467 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:43:48,471 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:43:48,479 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:43:48,480 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:44:48,012 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:44:48,014 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:44:48,353 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:44:48,418 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:44:48,455 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:45:33,336 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:45:33,343 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:45:33,351 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:45:33,357 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:45:33,357 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:45:53,460 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:45:53,467 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:45:53,479 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:45:53,482 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:45:53,483 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:46:37,354 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:46:37,355 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:46:37,356 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:46:37,367 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:46:37,367 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:47:08,979 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:47:08,979 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:47:08,986 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:47:08,990 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:47:08,992 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:48:12,978 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:48:12,983 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:48:12,988 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:48:12,993 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:48:12,993 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:48:38,964 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:48:38,965 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:48:38,965 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:48:38,968 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:48:38,988 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:48:44,878 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:48:44,886 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:48:44,890 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:48:44,897 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:48:44,897 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:48:55,189 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:48:55,189 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:48:55,193 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 15:48:55,198 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:48:55,201 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:49:25,711 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:49:25,716 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:49:25,722 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:49:25,728 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:49:25,728 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:50:06,418 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:50:06,420 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:50:06,425 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:50:06,433 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:50:06,433 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:50:08,668 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:50:08,671 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:50:08,683 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:50:08,694 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:50:08,694 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:50:19,783 [Worker-24: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 15:51:12,487 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:51:12,494 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:51:12,503 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:51:12,510 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:51:12,510 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:51:17,054 [Worker-21: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 15:52:40,042 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:52:40,044 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:52:40,050 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:52:40,052 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:52:40,053 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:52:43,218 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:52:43,220 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:52:43,228 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 15:52:43,232 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 15:52:43,236 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 15:52:45,160 [Worker-17: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:02:12,056 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:02:12,060 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:02:12,064 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:02:12,067 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:02:12,071 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:02:15,365 [Worker-27: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:02:45,763 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:02:45,767 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:02:45,777 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:02:45,782 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:02:45,786 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:02:49,327 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:02:49,331 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:02:49,343 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:02:49,349 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:02:49,349 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:02:55,955 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:02:55,957 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:02:55,964 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:02:55,976 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:02:55,981 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:03:20,375 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:03:20,382 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:03:20,391 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:03:20,397 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:03:20,398 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:03:25,927 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:03:25,929 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:03:25,943 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:03:25,952 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:03:25,957 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:05:07,426 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:05:07,431 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:05:07,438 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:05:07,447 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:05:07,447 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:05:13,690 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:05:13,692 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:05:13,698 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:05:13,701 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:05:13,701 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:05:39,209 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:05:39,212 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:05:39,217 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:05:39,222 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:05:39,222 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:05:43,332 [Worker-29: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:06:26,092 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:06:26,103 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:06:26,105 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:06:26,110 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:06:26,111 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:06:38,304 [Worker-27: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:08:42,914 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:08:42,917 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:08:42,923 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:08:42,926 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:08:42,926 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:08:47,393 [Worker-23: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:09:15,887 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:09:15,891 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:09:15,891 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:09:15,896 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:09:15,896 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:09:18,321 [Worker-31: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:09:43,473 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:09:43,476 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:09:43,482 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:09:43,487 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:09:43,488 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:09:49,049 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:09:49,052 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:09:49,062 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:09:49,071 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:09:49,074 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:10:01,510 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:10:01,515 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:10:01,524 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:10:01,530 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:10:01,531 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:10:02,663 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:10:02,677 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:10:02,690 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:10:02,694 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:10:02,702 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:10:07,171 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:10:07,181 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:10:07,190 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:10:07,196 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:10:07,196 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:10:10,283 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:10:10,285 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:10:10,295 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:10:10,300 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:10:10,309 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:10:36,393 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:10:36,520 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:10:36,528 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:10:36,560 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:10:36,560 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:10:40,360 [Worker-33: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:11:16,696 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:11:16,699 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:11:16,704 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:11:16,710 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:11:16,714 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:11:18,704 [Worker-33: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:11:31,026 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:11:31,033 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:11:31,047 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:11:31,054 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:11:31,054 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:12:00,920 [Worker-31: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:17:14,991 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:17:14,993 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:17:14,998 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:17:15,004 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:17:15,005 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:17:20,267 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:17:20,269 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:17:20,278 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:17:20,289 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:17:20,295 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:18:47,219 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:18:47,224 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:18:47,233 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:18:47,239 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:18:47,239 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:19:06,440 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:19:06,442 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:19:06,447 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:19:06,450 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:19:06,461 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:19:07,518 [Worker-40: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:19:07,518 [Worker-30: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:19:38,040 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:19:38,045 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:19:38,053 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:19:38,058 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:19:38,058 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:19:42,472 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:19:42,474 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:19:42,479 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:19:42,481 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:19:42,482 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:20:09,888 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:20:09,889 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:20:09,889 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:20:09,897 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:20:09,897 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:20:46,027 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:20:46,028 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:20:46,031 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:20:46,036 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:20:46,040 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:21:04,235 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:21:04,247 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:21:04,259 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:21:04,265 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:21:04,265 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:21:18,220 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:21:18,224 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:21:18,231 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:21:18,235 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:21:18,242 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:21:25,809 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:21:25,819 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:21:25,823 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:21:25,830 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:21:25,830 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:21:28,720 [Worker-39: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:21:43,973 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:21:43,981 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:21:43,984 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:21:43,990 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:21:43,990 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:21:47,353 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:22:14,136 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:22:14,138 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:22:14,146 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:22:14,154 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:22:14,155 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:22:14,872 [Worker-37: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:22:27,865 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:22:55,331 [Worker-37: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:22:55,399 [Worker-37: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:22:55,410 [Worker-37: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:22:55,413 [Worker-37: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:22:55,416 [Worker-37: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:22:55,936 [Worker-37: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:23:52,326 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:23:52,328 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:23:52,335 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:23:52,340 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:23:52,343 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:23:53,528 [Worker-18: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:23:57,970 [Worker-40: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:23:58,181 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:25:37,990 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:25:37,997 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:25:38,008 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:25:38,011 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:25:38,014 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:25:40,638 [Worker-45: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:25:40,639 [Worker-37: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:27:29,107 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:27:29,112 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:27:29,120 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:27:29,126 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:27:29,127 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:27:35,320 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:27:35,323 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:27:35,330 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:27:35,335 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:27:35,338 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:27:41,002 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:27:41,007 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:27:41,018 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:27:41,026 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:27:41,026 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:27:44,624 [Worker-41: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:28:17,589 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:28:17,591 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:28:17,595 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:28:17,597 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:28:17,597 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:28:25,082 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:28:25,084 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:28:25,091 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:28:25,094 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:28:25,096 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:28:27,418 [Worker-42: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:29:23,882 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:29:23,886 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:29:23,890 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-24 16:29:23,893 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:29:23,898 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:29:35,172 [Worker-30: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:32:02,744 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:32:02,744 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:32:02,747 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:32:02,752 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:32:02,754 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:32:05,447 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:32:05,447 [Worker-44: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:32:41,340 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:32:41,347 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:32:41,353 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:32:41,359 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:32:41,359 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:32:43,625 [Worker-48: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:32:43,625 [Worker-40: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:33:03,194 [Worker-47: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:33:33,228 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:33:33,239 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:33:33,242 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:33:33,251 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:33:33,251 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:33:36,932 [Worker-41: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:34:02,803 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:34:02,811 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:34:02,816 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:34:02,823 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:34:02,823 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:34:04,717 [Worker-47: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:34:23,737 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:34:23,737 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:34:23,737 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:34:23,749 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:34:23,749 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:34:26,145 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:34:26,145 [Worker-47: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:35:09,375 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:35:09,380 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:35:09,385 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:35:09,388 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:35:09,392 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:35:15,047 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:35:15,047 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:35:15,048 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:35:15,055 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:35:15,060 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:35:19,886 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:35:19,887 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:35:19,890 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:35:19,895 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:35:19,897 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:35:20,179 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:36:30,589 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:36:30,590 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:36:30,590 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:36:30,593 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:36:30,595 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:36:40,404 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:36:40,407 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:36:40,411 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:36:40,416 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:36:40,416 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:38:36,092 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:38:36,093 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:38:36,096 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:38:36,100 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:38:36,103 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:38:46,780 [Worker-44: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:38:46,780 [Worker-35: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:39:23,874 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:39:23,878 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:39:23,881 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:39:23,885 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:39:23,885 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:39:26,321 [Worker-48: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:39:26,321 [Worker-44: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:40:17,925 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:40:17,928 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:40:17,932 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:40:17,934 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:40:17,938 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:40:30,088 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:40:30,089 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:40:30,089 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:40:30,094 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:40:30,097 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:41:01,188 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:41:01,188 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:41:01,191 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:41:01,198 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:41:01,200 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:41:04,071 [Worker-30: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 16:41:35,384 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:41:35,392 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:41:35,401 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:41:35,405 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:41:35,416 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 16:41:48,892 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:41:48,892 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:41:48,892 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 16:41:48,897 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 16:41:48,902 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 17:16:01,140 [Worker-44: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 17:16:01,140 [Worker-44: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 17:16:01,145 [Worker-44: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 17:16:01,155 [Worker-44: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 17:16:01,158 [Worker-44: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 17:16:01,534 [Worker-44: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes
+2020-01-24 17:16:34,797 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 17:16:34,798 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 17:16:34,799 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 17:16:34,804 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 17:16:34,842 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 17:16:43,375 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 17:16:43,415 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 17:16:43,441 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 17:16:43,453 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 17:16:43,453 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 17:17:57,564 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 17:17:57,564 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 17:17:57,567 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-24 17:17:57,576 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-24 17:17:57,582 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Janje\Desktop\PDS\pdsWEB\src\test\resources
+2020-01-24 17:18:10,951 [Worker-51: Launching pdsWEB - PdsWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/pdsJPA: pdsJPA:pdsJPA:0.0.1-SNAPSHOT with classifier null to /pdsJPA/target/classes

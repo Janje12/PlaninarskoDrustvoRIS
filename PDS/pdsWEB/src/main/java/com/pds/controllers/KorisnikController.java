@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
 import com.pds.repositories.KorisnikRepository;
 import com.pds.repositories.UlogaRepository;
 
@@ -35,7 +34,7 @@ public class KorisnikController {
 			poruka = "Uspesno dodat " + ime + " u bazu";
 		}
 		request.setAttribute("poruka", poruka);
-		return "/admin/korisnik.jsp";
+		return "admin/korisnik";
 	}
 	
 	@RequestMapping(value="registruj", method=RequestMethod.POST)
@@ -61,7 +60,7 @@ public class KorisnikController {
 			poruka = "Uspesno obrisan korisnik sa ID-om " + idKorisnik + " iz baze";
 		}
 		request.setAttribute("poruka", poruka);
-		return "/admin/korisnik.jsp";
+		return "admin/korisnik";
 	}
 	
 	@RequestMapping(value="dodeliUlogu", method=RequestMethod.POST)
@@ -76,7 +75,7 @@ public class KorisnikController {
 					" u bazu";
 		}
 		request.setAttribute("poruka", poruka);
-		return "/admin/korisnik.jsp";
+		return "admin/korisnik";
 	}
 	
 	@RequestMapping(value="promeniSifru", method=RequestMethod.POST)
@@ -90,19 +89,32 @@ public class KorisnikController {
 					" u bazi";
 		}
 		request.setAttribute("poruka", poruka);
-		return "/admin/korisnik.jsp";
+		return "admin/korisnik";
 	}
 	
-	@RequestMapping(value="lista", method=RequestMethod.POST) 
+	@RequestMapping(value="lista", method=RequestMethod.GET) 
 	public String listaKorisnika(HttpServletRequest request) {
 		List<Korisnik> lk = kr.findAll();
 		String poruka = "Neuspesno dobavljena lista korisnika.";
 		if(lk != null) {
 			poruka = "Uspesno dobavljena lista korisnika.";
-			request.setAttribute("korisnici", lk);
+			request.getSession().setAttribute("korisnici", lk);
 		}
 		request.setAttribute("poruka", poruka);
-		return "/admin/korisnik.jsp";
+		return "admin/korisnik";
 	}
 	
+	@RequestMapping(value="prihvati", method=RequestMethod.GET)
+	public String prihvatiKorisnika(String idKorisnika, HttpServletRequest request) {
+		Korisnik k = kr.findById(Integer.parseInt(idKorisnika)).get();
+		String poruka = "Doslo je do greske!";
+		if(k != null) {
+			k.setUloga(ur.findById(1).get()); //planinar
+			kr.save(k);
+			poruka = "Uspesno prihvacen korisnik " + k.getUsername();
+			listaKorisnika(request);
+		}
+		request.setAttribute("poruka", poruka);	
+		return "admin/korisnik";
+	}
 }

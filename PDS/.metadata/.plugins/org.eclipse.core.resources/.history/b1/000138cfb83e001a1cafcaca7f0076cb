@@ -1,0 +1,9 @@
+package com.pds.beans;
+
+import com.pds.repositories.PlaninaRepository;
+
+public class PlanineBean {
+	
+	@Autowired
+	private PlaninaRepository pr;
+}

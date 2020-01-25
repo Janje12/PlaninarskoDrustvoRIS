@@ -41,7 +41,10 @@
 					<div class="menu_block ">
 						<c:url value="/logout" var="logoutUrl"/>
 						<sec:authorize access="isAuthenticated()">
-					 	<p align="right">Dobrodosli <sec:authentication property="principal.username"/>!</p>
+					 	<p align="right">Dobrodosli <sec:authentication property="principal.username"/>!
+					 	<sec:authorize access="hasRole('sekretar')">
+					 	<a href="admin/admin.jsp">Admin panela</a>
+						</sec:authorize></p>
 						</sec:authorize>
 						<sec:authorize access="!isAuthenticated()">
 						<a href="/pdsWEB/login.jsp" class="donate">LOGIN</a>
@@ -59,7 +62,7 @@
 						<nav class="horizontal-nav full-width horizontalNav-notprocessed">
 							<ul class="sf-menu">
 								<li class="current"><a href="index.jsp">Po&#269etna</a></li>
-								<li><a href="index-1.jsp">Planine</a></li>
+								<li><a href="/pdsWEB/Planina/listaP">Planine</a></li>
 								<li><a href="index-2.jsp">Li&#269na Iskustva!</a></li>
 								<li><a href="index-3.jsp">Sme&#353taj</a></li>
 								<li><a href="index-4.jsp">Kontakt</a></li>	</ul>
@@ -98,7 +101,6 @@
 			</div>
 		</div>
 <!--==============================Content=================================-->
-		<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - March 24, 2014!</div>
 			<div class="container_12">
 				<div class="grid_6">
 					<h2>Meet Our Team</h2>

@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="../css/touchTouch.css">
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/login.css">
+<link rel="stylesheet" href="../css/admin.css">
 <script src="../js/jquery.js"></script>
 <script src="../js/jquery-migrate-1.2.1.js"></script>
 <script src="../js/script.js"></script>
@@ -83,7 +84,20 @@
 	</header>
 	<!--==============================Content=================================-->
 	<div class="content">
-		 
+	<div class="clear"></div>
+		<table>
+			<tr><th>Podesavanja</th>
+			<td rowspan=9 style="width:100%">STATISTIKA WIP</td>
+			</tr>
+			<tr><td><a href="/pdsWEB/Korisnik/lista">Korisnici</a></td></tr>
+			<tr><td><a href="/pdsWEB/Izvestaj/lista">Izvestaji </td></tr>
+			<tr><td><a href="/pdsWEB/Komentar/lista">Komentari </td></tr>
+			<tr><td><a href="/pdsWEB/Planina/lista">Planine </td></tr>
+			<tr><td><a href="/pdsWEB/PlaninarskiDom/lista">Planinarski Domovi </td></tr>
+			<tr><td><a href="/pdsWEB/Staza/lista">Staze </td></tr>
+			<tr><td><a href="/pdsWEB/Znamenitost/lista">Znamenitosti </td></tr>
+			<tr><td><a href="/pdsWEB/Rezervacija/lista">Rezervacije </td></tr>
+		</table>
 	</div>
 	<div class="bottom_block">
 		<div class="container_12">

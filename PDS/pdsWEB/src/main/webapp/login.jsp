@@ -98,7 +98,7 @@
 				<table>
 					<tr>
 						<td><input type="text" name="username"
-							placeholder="Unesi Korisnicko ime" required></td>
+							placeholder="Unesi Korisnicko ime" required autofocus></td>
 					</tr>
 					<tr>
 						<td><input type="password" name="password"

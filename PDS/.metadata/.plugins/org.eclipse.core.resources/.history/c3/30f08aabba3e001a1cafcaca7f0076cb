@@ -1,0 +1,32 @@
+package com.pds.beans;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.context.annotation.Bean;
+
+import com.pds.repositories.PlaninaRepository;
+
+import models.Planina;
+
+public class PlanineBean {
+	
+	@Autowired
+	private PlaninaRepository pr;
+	
+	private List<Planina> lp;
+	
+	public PlanineBean() {
+		lp = pr.findAll();
+	}
+
+	public List<Planina> getLp() {
+		return lp;
+	}
+
+	public void setLp(List<Planina> lp) {
+		this.lp = lp;
+	}
+	
+}

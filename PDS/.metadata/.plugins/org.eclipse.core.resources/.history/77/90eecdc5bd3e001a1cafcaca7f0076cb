@@ -1,0 +1,84 @@
+package com.pds.controllers;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.pds.repositories.PlaninaRepository;
+
+import models.Planina;
+
+@Controller
+@RequestMapping(value="Planina")
+public class PlaninaController {
+	
+	@Autowired
+	private PlaninaRepository pr;
+	
+	@RequestMapping(value="dodaj", method=RequestMethod.POST)
+	public String dodajPlaninu(String naziv, String opis, String geolokacija, HttpServletRequest request) {
+		Planina p = pr.save(new Planina(naziv, opis, geolokacija));
+		String poruka = "Neuspesno dodata planina " + naziv + " u bazu.";
+		if(p != null) {
+			poruka = "Uspesno dodata planina " + naziv + " u bazu";
+		}
+		request.setAttribute("poruka", poruka);
+	
+		return "/admin/planina.jsp";
+	}
+	
+	@RequestMapping(value="obrisi", method=RequestMethod.POST)
+	public String obrisiPlaninu(String idPLanina, HttpServletRequest request) {
+		String poruka = "Neuspesno obrisana planina sa ID-om " + idPLanina + " iz baze.";
+		if(idPLanina != null) {
+			pr.deleteById(Integer.parseInt(idPLanina));
+			poruka = "Uspesno obrisana planina sa ID-om " + idPLanina + " iz baze";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/planina.jsp";
+	}
+	
+	@RequestMapping(value="promeniOpis", method=RequestMethod.POST)
+	public String promeniOpisPlanini(String idPlanina, String opis, HttpServletRequest request) {
+		Planina p = pr.findById(Integer.parseInt(idPlanina)).get();
+		String poruka = "Neuspesno promenjen opis planine " + p.getNaziv() + " u bazi";
+		if(p != null) {
+			p.setOpis(opis);
+			pr.save(p);
+			poruka = "Uspesno promenjen opis planine " + p.getNaziv() +
+					" u bazi";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/planina.jsp";
+	}
+	
+	@RequestMapping(value="lista", method=RequestMethod.POST) 
+	public String listaPlanina(HttpServletRequest request) {
+		List<Planina> lp = pr.findAll();
+		String poruka = "Neuspesno dobavljena lista planina.";
+		if(lp != null) {
+			poruka = "Uspesno dobavljena lista planina.";
+			request.setAttribute("planine", lp);
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/planina.jsp";
+	}
+	
+	@RequestMapping(value="listaP", method=RequestMethod.GET) 
+	public String listaP(HttpServletRequest request) {
+		List<Planina> lp = pr.findAll();
+		String poruka = "Neuspesno dobavljena lista planina.";
+		if(lp != null) {
+			poruka = "Uspesno dobavljena lista planina.";
+			request.setAttribute("planine", lp);
+		}
+		request.setAttribute("poruka", poruka);
+		return "redirect:../index-1.jsp";
+	}
+	
+}

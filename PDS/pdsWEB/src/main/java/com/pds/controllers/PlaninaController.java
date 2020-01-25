@@ -1,8 +1,10 @@
 package com.pds.controllers;
 
+import java.io.IOException;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -58,7 +60,7 @@ public class PlaninaController {
 	}
 	
 	@RequestMapping(value="lista", method=RequestMethod.POST) 
-	public String listaPlaninarskihDomova(HttpServletRequest request) {
+	public String listaPlanina(HttpServletRequest request) {
 		List<Planina> lp = pr.findAll();
 		String poruka = "Neuspesno dobavljena lista planina.";
 		if(lp != null) {
@@ -67,6 +69,18 @@ public class PlaninaController {
 		}
 		request.setAttribute("poruka", poruka);
 		return "/admin/planina.jsp";
+	}
+	
+	@RequestMapping(value="listaP", method=RequestMethod.GET) 
+	public void listaP(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		List<Planina> lp = pr.findAll();
+		String poruka = "Neuspesno dobavljena lista planina.";
+		if(lp != null) {
+			poruka = "Uspesno dobavljena lista planina.";
+			request.getSession().setAttribute("planine", lp);
+		}
+		request.getSession().setAttribute("poruka", poruka);
+		response.sendRedirect("/pdsWEB/index-1.jsp");
 	}
 	
 }

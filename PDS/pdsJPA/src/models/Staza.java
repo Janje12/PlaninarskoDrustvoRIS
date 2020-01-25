@@ -34,6 +34,12 @@ public class Staza implements Serializable {
 	public Staza() {
 	}
 
+	public Staza(String naziv2, double parseDouble, Planina p) {
+		naziv = naziv2;
+		duzina = parseDouble;
+		planina = p;
+	}
+
 	public int getIdStaza() {
 		return this.idStaza;
 	}
