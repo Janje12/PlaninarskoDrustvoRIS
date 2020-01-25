@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pds.repositories.PlaninaRepository;
+import com.pds.repositories.PlaninarskiDomRepository;
+import com.pds.repositories.StazaRepository;
 
 import models.Planina;
 
@@ -21,6 +24,10 @@ public class PlaninaController {
 	
 	@Autowired
 	private PlaninaRepository pr;
+	@Autowired
+	private PlaninarskiDomRepository pdr;
+	@Autowired
+	private StazaRepository sr;
 	
 	@RequestMapping(value="dodaj", method=RequestMethod.POST)
 	public String dodajPlaninu(String naziv, String opis, String geolokacija, HttpServletRequest request) {
@@ -83,4 +90,14 @@ public class PlaninaController {
 		response.sendRedirect("/pdsWEB/index-1.jsp");
 	}
 	
+	@RequestMapping(value="stranica", method=RequestMethod.GET)
+	@Transactional
+	public void stranicaPlanina(String idPlanina, HttpServletRequest request, HttpServletResponse response) throws IOException {
+		Planina p = pr.findById(Integer.parseInt(idPlanina)).get();
+		request.getSession().setAttribute("p", p);
+		request.getSession().setAttribute("pds", pdr.findByPlanina(p));
+		request.getSession().setAttribute("stz", sr.findByPlanina(p));
+		request.getSession().setAttribute("poruka", "");
+		response.sendRedirect("/pdsWEB/planine/planina.jsp");
+	}
 }

@@ -46,6 +46,7 @@ public class Rezervacija implements Serializable {
 		datumDolaska = datumDolaska2;
 		datumRezervacije = datumRezervacije2;
 		vrstaRezervacije = vrsta;
+		korisnik = k;
 		planinarskidom = pd;
 	}
 
@@ -53,6 +54,7 @@ public class Rezervacija implements Serializable {
 		datumDolaska = datumDolaska2;
 		datumRezervacije = datumRezervacije2;
 		vrstaRezervacije = vrsta;
+		korisnik = k;
 		znamenitost = z;
 	}
 

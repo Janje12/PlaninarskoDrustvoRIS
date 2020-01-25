@@ -83,10 +83,10 @@
 							class="img_inner fleft">
 						<div>
 							<p class="col2">
-								<h3><a href="planine/${p.naziv}.jsp">${p.naziv}</a></h3>
+								<h3><a href="/pdsWEB/Planina/stranica?idPlanina=${p.idPlanina}">${p.naziv}</a></h3>
 							</p>
 						<p stlye="text-align: justify; ">${p.opis}</p> 
-						<br><a href="planine/${p.naziv}.jsp--" class="btn">Opsirnije</a>
+						<br><a href="/pdsWEB/Planina/stranica?idPlanina=${p.idPlanina}" class="btn">Opsirnije</a>
 						</div>
 						<div class="clear cl1"></div>
 					</c:forEach>

@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Registurj se!</title>
+<title>Registruj se!</title>
 <meta charset="iso-8859-2">
 <meta name="format-detection" content="telephone=no" />
 <link rel="icon" href="../images/favicon.ico">

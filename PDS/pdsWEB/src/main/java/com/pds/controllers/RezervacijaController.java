@@ -1,11 +1,17 @@
 package com.pds.controllers;
 
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -14,6 +20,7 @@ import com.pds.repositories.KorisnikRepository;
 import com.pds.repositories.PlaninarskiDomRepository;
 import com.pds.repositories.RezervacijaRepository;
 import com.pds.repositories.ZnamenitostRepository;
+import com.pds.security.UserDetailsImpl;
 
 import models.Korisnik;
 import models.PlaninarskiDom;
@@ -24,7 +31,7 @@ import models.Znamenitost;
 @Controller
 @RequestMapping(value="Rezervacija")
 public class RezervacijaController {
-	
+
 	@Autowired
 	private RezervacijaRepository rr;
 	@Autowired
@@ -33,30 +40,37 @@ public class RezervacijaController {
 	private ZnamenitostRepository zr;
 	@Autowired
 	private KorisnikRepository kr;
-	
+
 	@RequestMapping(value="dodaj", method=RequestMethod.POST)
-	public String dodajRezervaciju(String vrsta, Date datumDolaska, String idKorisnika, String id, HttpServletRequest request) {
+	public void dodajRezervaciju(String datum, HttpServletRequest request, HttpServletResponse response) throws IOException, ParseException {
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		String username = ((UserDetailsImpl) auth.getPrincipal()).getUsername();
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+		Date datumDolaska = formatter.parse(datum);
 		Date datumRezervacije = new Date();
 		PlaninarskiDom pd;
 		Znamenitost z;
 		Rezervacija r;
-		Korisnik k = kr.findById(Integer.parseInt(idKorisnika)).get();
-		if(vrsta.equals("planinarski dom")) {
-			pd = pdr.findById(Integer.parseInt(id)).get();
+		Korisnik k = kr.findByUsername(username);
+		String vrsta = (String) request.getSession().getAttribute("vrsta");
+		Integer id = (Integer) request.getSession().getAttribute("id");
+		if(vrsta.equals("planinarskidom")) {
+			pd = pdr.findById(id).get();
 			r = rr.save(new Rezervacija(datumDolaska, datumRezervacije, vrsta, k, pd));
 		}
 		else {
-			z = zr.findById(Integer.parseInt(id)).get();
+			System.err.println(k.getIdKorisnik());
+			z = zr.findById(id).get();
 			r = rr.save(new Rezervacija(datumDolaska, datumRezervacije, vrsta, k, z));
 		}
-		String poruka = "Neuspesno rezervisano za korisnika " + k.getUsername() + " za datum " + datumDolaska + " u bazu.";
+		String poruka = "Neuspesno rezervisano za korisnika " + k.getUsername() + " za datum " + datumDolaska;
 		if(r != null) {
-			poruka = "Uspesno rezervisano za korisnika " + k.getUsername() + " za datum " + datumDolaska + " u bazu";
+			poruka = "Uspesno rezervisano za korisnika " + k.getUsername() + " za datum " + datumDolaska;
 		}
-		request.setAttribute("poruka", poruka);
-		return "/admin/rezervacija.jsp";
+		request.getSession().setAttribute("poruka", poruka);
+		response.sendRedirect("/pdsWEB/rezervacija.jsp");
 	}
-	
+
 	@RequestMapping(value="obrisi", method=RequestMethod.POST)
 	public String obrisiRezervaciju(String idRezervacija, HttpServletRequest request) {
 		String poruka = "Neuspesno obrisana rezervacija sa ID-om " + idRezervacija + " iz baze.";
@@ -67,7 +81,7 @@ public class RezervacijaController {
 		request.setAttribute("poruka", poruka);
 		return "/admin/rezervacija.jsp";
 	}
-	
+
 	@RequestMapping(value="lista", method=RequestMethod.POST) 
 	public String listaRezervacija(String vrstaRezervacije, HttpServletRequest request) {
 		List<Rezervacija> lr = rr.findAllByVrstaRezervacije(vrstaRezervacije);
@@ -78,5 +92,26 @@ public class RezervacijaController {
 		}
 		request.setAttribute("poruka", poruka);
 		return "/admin/rezervacija.jsp";
+	}
+
+	@RequestMapping(value="stranica", method=RequestMethod.GET) 
+	public void stranicaRezervacije(String id, String vrsta, HttpServletRequest request, HttpServletResponse response) throws IOException {
+		PlaninarskiDom pd;
+		Znamenitost z;
+		if(vrsta.equals("planinarskidom")) {
+			pd = pdr.findById(Integer.parseInt(id)).get();
+			request.getSession().setAttribute("pd", pd);
+			request.getSession().setAttribute("id", pd.getIdPlaninarskiDom());
+		} else {
+			z = zr.findById(Integer.parseInt(id)).get();
+			request.getSession().setAttribute("z", z);
+			request.getSession().setAttribute("id", z.getIdZnamenitost());
+		}
+		request.getSession().setAttribute("vrsta", vrsta);
+		Date d = new Date();
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+		String ds = formatter.format(d);
+		request.getSession().setAttribute("date", ds);
+		response.sendRedirect("/pdsWEB/rezervacija.jsp");
 	}
 }

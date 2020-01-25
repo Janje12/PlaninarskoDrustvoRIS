@@ -1,8 +1,10 @@
 package com.pds.controllers;
 
+import java.io.IOException;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pds.repositories.PlaninaRepository;
 import com.pds.repositories.StazaRepository;
+import com.pds.repositories.ZnamenitostRepository;
 
 import models.Planina;
 import models.Staza;
@@ -23,6 +26,8 @@ public class StazaController {
 	private StazaRepository sr;
 	@Autowired
 	private PlaninaRepository pr;
+	@Autowired
+	private ZnamenitostRepository zr;
 	
 	@RequestMapping(value="dodaj", method=RequestMethod.POST)
 	public String dodajStazus(String naziv, String duzina, String idPlanina, 
@@ -59,6 +64,16 @@ public class StazaController {
 		}
 		request.setAttribute("poruka", poruka);
 		return "/admin/staza.jsp";
+	}
+	
+	@RequestMapping(value="znamenitosti", method=RequestMethod.GET)
+	public void stranicaPlanina(String idStaza, HttpServletRequest request, HttpServletResponse response) throws IOException {
+		System.err.println(idStaza);
+		Staza s = sr.findById(Integer.parseInt(idStaza)).get();
+		request.getSession().setAttribute("s", s);
+		request.getSession().setAttribute("lz", zr.findByStaza(s));
+		request.getSession().setAttribute("poruka", "");
+		response.sendRedirect("/pdsWEB/planine/staza.jsp");
 	}
 
 }

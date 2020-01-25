@@ -26,9 +26,9 @@ public class ZnamenitostController {
 	
 	@RequestMapping(value="dodaj", method=RequestMethod.POST)
 	public String dodajZnamenitost(String naziv, String opis, String tip, 
-			String idStaza, HttpServletRequest request) {
+			String idStaza, String potrebnaRezervacija, HttpServletRequest request) {
 		Staza s = sr.findById(Integer.parseInt(idStaza)).get();
-		Znamenitost z = zr.save(new Znamenitost(naziv, opis, tip, s));
+		Znamenitost z = zr.save(new Znamenitost(naziv, opis, tip, s, potrebnaRezervacija));
 		String poruka = "Neuspesno dodata znamenitost " + naziv + " u bazu.";
 		if(z != null) {
 			poruka = "Uspesno dodata znamenitost " + naziv + " u bazu";

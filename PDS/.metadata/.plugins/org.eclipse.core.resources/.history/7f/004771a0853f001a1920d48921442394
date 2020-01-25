@@ -1,0 +1,64 @@
+package com.pds.controllers;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.pds.repositories.PlaninaRepository;
+import com.pds.repositories.StazaRepository;
+
+import models.Planina;
+import models.Staza;
+
+@Controller
+@RequestMapping(value="Staza")
+public class StazaController {
+	
+	@Autowired
+	private StazaRepository sr;
+	@Autowired
+	private PlaninaRepository pr;
+	
+	@RequestMapping(value="dodaj", method=RequestMethod.POST)
+	public String dodajStazus(String naziv, String duzina, String idPlanina, 
+			HttpServletRequest request) {
+		Planina p = pr.findById(Integer.parseInt(idPlanina)).get();
+		Staza s = sr.save(new Staza(naziv, Double.parseDouble(duzina), p));
+		String poruka = "Neuspesno dodata staza " + naziv + " u bazu.";
+		if(s != null) {
+			poruka = "Uspesno dodata staza " + naziv + " u bazu";
+		}
+		request.setAttribute("poruka", poruka);
+	
+		return "/admin/staza.jsp";
+	}
+	
+	@RequestMapping(value="obrisi", method=RequestMethod.POST)
+	public String obrisiStazu(String idStaza, HttpServletRequest request) {
+		String poruka = "Neuspesno obrisana staza sa ID-om " + idStaza + " iz baze.";
+		if(idStaza != null) {
+			sr.deleteById(Integer.parseInt(idStaza));
+			poruka = "Uspesno obrisana staza sa ID-om " + idStaza + " iz baze";
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/staza.jsp";
+	}
+
+	@RequestMapping(value="lista", method=RequestMethod.POST) 
+	public String listaStaza(HttpServletRequest request) {
+		List<Staza> ls = sr.findAll();
+		String poruka = "Neuspesno dobavljena lista staza.";
+		if(ls != null) {
+			poruka = "Uspesno dobavljena lista staza.";
+			request.setAttribute("staze", ls);
+		}
+		request.setAttribute("poruka", poruka);
+		return "/admin/staza.jsp";
+	}
+
+}

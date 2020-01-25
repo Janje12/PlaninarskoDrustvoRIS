@@ -29,7 +29,7 @@ public class PlaninarskiDomController {
 	public String dodajPlaninarskiDom(String adresa, String geolokacija, String naziv, String opis,
 			String idPlanina, HttpServletRequest request) {
 		Planina p = pr.findById(Integer.parseInt(idPlanina)).get();
-		PlaninarskiDom pd = pdr.save(new PlaninarskiDom(adresa, geolokacija, naziv, opis, p));
+		PlaninarskiDom pd = pdr.save(new PlaninarskiDom(geolokacija, naziv, opis, p));
 		String poruka = "Neuspesno dodata planinarski dom " + naziv + " u bazu.";
 		if(pd != null) {
 			poruka = "Uspesno dodat planinarski dom " + naziv + " u bazu";

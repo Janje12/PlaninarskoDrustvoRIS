@@ -24,6 +24,8 @@ public class Znamenitost implements Serializable {
 	private String opis;
 
 	private String tip;
+	
+	private String potrebnaRezervacija;
 
 	//bi-directional many-to-one association to Komentar
 	@OneToMany(mappedBy="znamenitost")
@@ -40,11 +42,12 @@ public class Znamenitost implements Serializable {
 	public Znamenitost() {
 	}
 
-	public Znamenitost(String naziv2, String opis2, String tip2, Staza s) {
+	public Znamenitost(String naziv2, String opis2, String tip2, Staza s, String potrebnaRezervacija2) {
 		naziv = naziv2;
 		opis = opis2;
 		tip = tip2;
 		staza = s;
+		potrebnaRezervacija = potrebnaRezervacija2;
 	}
 
 	public int getIdZnamenitost() {
@@ -129,6 +132,14 @@ public class Znamenitost implements Serializable {
 
 	public void setStaza(Staza staza) {
 		this.staza = staza;
+	}
+
+	public String getPotrebnaRezervacija() {
+		return potrebnaRezervacija;
+	}
+
+	public void setPotrebnaRezervacija(String potrebnaRezervacija) {
+		this.potrebnaRezervacija = potrebnaRezervacija;
 	}
 
 }

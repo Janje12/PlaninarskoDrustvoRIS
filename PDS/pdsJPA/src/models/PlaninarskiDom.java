@@ -19,8 +19,6 @@ public class PlaninarskiDom implements Serializable {
 	@Column(name="IDPLANINARSKIDOM")
 	private int idPlaninarskiDom;
 
-	private String adresa;
-
 	private String geolokacija;
 
 	private String naziv;
@@ -38,9 +36,8 @@ public class PlaninarskiDom implements Serializable {
 	public PlaninarskiDom() {
 	}
 
-	public PlaninarskiDom(String adresa, String geolokacija, String naziv, String opis, Planina planina) {
+	public PlaninarskiDom(String geolokacija, String naziv, String opis, Planina planina) {
 		super();
-		this.adresa = adresa;
 		this.geolokacija = geolokacija;
 		this.naziv = naziv;
 		this.opis = opis;
@@ -53,14 +50,6 @@ public class PlaninarskiDom implements Serializable {
 
 	public void setIdPlaninarskiDom(int idPlaninarskiDom) {
 		this.idPlaninarskiDom = idPlaninarskiDom;
-	}
-
-	public String getAdresa() {
-		return this.adresa;
-	}
-
-	public void setAdresa(String adresa) {
-		this.adresa = adresa;
 	}
 
 	public String getGeolokacija() {
