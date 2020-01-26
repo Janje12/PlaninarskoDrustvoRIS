@@ -1,8 +1,10 @@
 package com.pds.controllers;
 
+import java.io.IOException;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -76,4 +78,16 @@ public class PlaninarskiDomController {
 		return "/admin/planinarskidom.jsp";
 	}
 	
+	
+	@RequestMapping(value="listaPD", method=RequestMethod.GET) 
+	public void listaPlaninarskihDomova(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		List<PlaninarskiDom> lpd = pdr.findAll();
+		String poruka = "Neuspesno dobavljena lista planinarskih domova.";
+		if(lpd != null) {
+			poruka = "Uspesno dobavljena lista planinarskih domova.";
+			request.getSession().setAttribute("planinarskidomovi", lpd);
+		}
+		request.setAttribute("poruka", poruka);
+		response.sendRedirect("/pdsWEB/index-3.jsp");
+	}
 }

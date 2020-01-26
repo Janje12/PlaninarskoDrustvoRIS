@@ -15,8 +15,7 @@ public class Uloga implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="IDULOGA")
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int idUloga;
 
 	private String naziv;
@@ -28,8 +27,9 @@ public class Uloga implements Serializable {
 	public Uloga() {
 	}
 
-	public Uloga(String naziv2) {
-		naziv = naziv2;
+	public Uloga(String naziv) {
+		super();
+		this.naziv = naziv;
 	}
 
 	public int getIdUloga() {

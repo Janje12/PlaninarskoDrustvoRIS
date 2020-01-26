@@ -1,0 +1,100 @@
+package models;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.util.Date;
+
+
+/**
+ * The persistent class for the rezervacija database table.
+ * 
+ */
+@Entity
+@NamedQuery(name="Rezervacija.findAll", query="SELECT r FROM Rezervacija r")
+public class Rezervacija implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private int idRezervacija;
+
+	@Temporal(TemporalType.DATE)
+	private Date datumDolaska;
+
+	@Temporal(TemporalType.DATE)
+	private Date datumRezervacije;
+
+	private String vrstaRezervacije;
+
+	//bi-directional many-to-one association to Korisnik
+	@ManyToOne
+	private Korisnik korisnik;
+
+	//bi-directional many-to-one association to Planinarskidom
+	@ManyToOne
+	private PlaninarskiDom planinarskidom;
+
+	//bi-directional many-to-one association to Znamenitost
+	@ManyToOne
+	private Znamenitost znamenitost;
+
+	public Rezervacija() {
+	}
+
+	public int getIdRezervacija() {
+		return this.idRezervacija;
+	}
+
+	public void setIdRezervacija(int idRezervacija) {
+		this.idRezervacija = idRezervacija;
+	}
+
+	public Date getDatumDolaska() {
+		return this.datumDolaska;
+	}
+
+	public void setDatumDolaska(Date datumDolaska) {
+		this.datumDolaska = datumDolaska;
+	}
+
+	public Date getDatumRezervacije() {
+		return this.datumRezervacije;
+	}
+
+	public void setDatumRezervacije(Date datumRezervacije) {
+		this.datumRezervacije = datumRezervacije;
+	}
+
+	public String getVrstaRezervacije() {
+		return this.vrstaRezervacije;
+	}
+
+	public void setVrstaRezervacije(String vrstaRezervacije) {
+		this.vrstaRezervacije = vrstaRezervacije;
+	}
+
+	public Korisnik getKorisnik() {
+		return this.korisnik;
+	}
+
+	public void setKorisnik(Korisnik korisnik) {
+		this.korisnik = korisnik;
+	}
+
+	public PlaninarskiDom getPlaninarskidom() {
+		return this.planinarskidom;
+	}
+
+	public void setPlaninarskiDom(PlaninarskiDom planinarskidom) {
+		this.planinarskidom = planinarskidom;
+	}
+
+	public Znamenitost getZnamenitost() {
+		return this.znamenitost;
+	}
+
+	public void setZnamenitost(Znamenitost znamenitost) {
+		this.znamenitost = znamenitost;
+	}
+
+}

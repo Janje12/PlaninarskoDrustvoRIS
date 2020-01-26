@@ -15,8 +15,7 @@ public class Staza implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="IDSTAZA")
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int idStaza;
 
 	private double duzina;
@@ -34,10 +33,11 @@ public class Staza implements Serializable {
 	public Staza() {
 	}
 
-	public Staza(String naziv2, double parseDouble, Planina p) {
-		naziv = naziv2;
-		duzina = parseDouble;
-		planina = p;
+	public Staza(double duzina, String naziv, Planina planina) {
+		super();
+		this.duzina = duzina;
+		this.naziv = naziv;
+		this.planina = planina;
 	}
 
 	public int getIdStaza() {

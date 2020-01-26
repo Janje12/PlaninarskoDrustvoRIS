@@ -63,8 +63,8 @@
 							<ul class="sf-menu">
 								<li class="current"><a href="index.jsp">Po&#269etna</a></li>
 								<li><a href="/pdsWEB/Planina/listaP">Planine</a></li>
-								<li><a href="index-2.jsp">Li&#269na Iskustva!</a></li>
-								<li><a href="index-3.jsp">Sme&#353taj</a></li>
+								<li><a href="/pdsWEB/Izvestaj/listaI">Li&#269na Iskustva!</a></li>
+								<li><a href="/pdsWEB/PlaninarskiDom/listaPD">Sme&#353taj</a></li>
 								<li><a href="index-4.jsp">Kontakt</a></li>	</ul>
 						</nav>
 						<div class="clear"></div>

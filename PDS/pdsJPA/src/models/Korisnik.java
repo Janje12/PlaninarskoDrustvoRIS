@@ -17,7 +17,6 @@ public class Korisnik implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="IDKORISNIK")
 	private int idKorisnik;
 
 	@Temporal(TemporalType.DATE)
@@ -47,6 +46,10 @@ public class Korisnik implements Serializable {
 	@OneToMany(mappedBy="korisnik")
 	private List<Rezervacija> rezervacijas;
 
+	//bi-directional many-to-one association to Slika
+	@OneToMany(mappedBy="korisnik")
+	private List<Slika> slikas;
+
 	public Korisnik() {
 	}
 
@@ -59,13 +62,12 @@ public class Korisnik implements Serializable {
 		uloga = u;
 	}
 
-	public Korisnik(java.sql.Date d, String ime2, String prezime2, String username2) {
+	public Korisnik(Date d, String ime2, String prezime2, String username2) {
 		datumRodjenja = d;
 		ime = ime2;
 		prezime = prezime2;
 		username = username2;
 	}
-
 	public int getIdKorisnik() {
 		return this.idKorisnik;
 	}
@@ -186,6 +188,28 @@ public class Korisnik implements Serializable {
 		rezervacija.setKorisnik(null);
 
 		return rezervacija;
+	}
+
+	public List<Slika> getSlikas() {
+		return this.slikas;
+	}
+
+	public void setSlikas(List<Slika> slikas) {
+		this.slikas = slikas;
+	}
+
+	public Slika addSlika(Slika slika) {
+		getSlikas().add(slika);
+		slika.setKorisnik(this);
+
+		return slika;
+	}
+
+	public Slika removeSlika(Slika slika) {
+		getSlikas().remove(slika);
+		slika.setKorisnik(null);
+
+		return slika;
 	}
 
 }

@@ -94,14 +94,14 @@ public class PlaninarskiDom implements Serializable {
 
 	public Rezervacija addRezervacija(Rezervacija rezervacija) {
 		getRezervacijas().add(rezervacija);
-		rezervacija.setPlaninarskidom(this);
+		rezervacija.setPlaninarskiDom(this);
 
 		return rezervacija;
 	}
 
 	public Rezervacija removeRezervacija(Rezervacija rezervacija) {
 		getRezervacijas().remove(rezervacija);
-		rezervacija.setPlaninarskidom(null);
+		rezervacija.setPlaninarskiDom(null);
 
 		return rezervacija;
 	}

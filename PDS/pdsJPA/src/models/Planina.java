@@ -15,8 +15,7 @@ public class Planina implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="IDPLANINA")
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int idPlanina;
 
 	private String geolokacija;
@@ -36,10 +35,11 @@ public class Planina implements Serializable {
 	public Planina() {
 	}
 
-	public Planina(String naziv2, String opis2, String geolokacija2) {
-		naziv = naziv2;
-		opis = opis2;
-		geolokacija = geolokacija2;
+	public Planina(String geolokacija, String naziv, String opis) {
+		super();
+		this.geolokacija = geolokacija;
+		this.naziv = naziv;
+		this.opis = opis;
 	}
 
 	public int getIdPlanina() {

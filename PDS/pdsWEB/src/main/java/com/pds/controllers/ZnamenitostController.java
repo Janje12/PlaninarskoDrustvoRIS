@@ -28,7 +28,7 @@ public class ZnamenitostController {
 	public String dodajZnamenitost(String naziv, String opis, String tip, 
 			String idStaza, String potrebnaRezervacija, HttpServletRequest request) {
 		Staza s = sr.findById(Integer.parseInt(idStaza)).get();
-		Znamenitost z = zr.save(new Znamenitost(naziv, opis, tip, s, potrebnaRezervacija));
+		Znamenitost z = zr.save(new Znamenitost(naziv, opis, potrebnaRezervacija, tip, s));
 		String poruka = "Neuspesno dodata znamenitost " + naziv + " u bazu.";
 		if(z != null) {
 			poruka = "Uspesno dodata znamenitost " + naziv + " u bazu";

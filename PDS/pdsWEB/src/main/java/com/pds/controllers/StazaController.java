@@ -33,7 +33,7 @@ public class StazaController {
 	public String dodajStazus(String naziv, String duzina, String idPlanina, 
 			HttpServletRequest request) {
 		Planina p = pr.findById(Integer.parseInt(idPlanina)).get();
-		Staza s = sr.save(new Staza(naziv, Double.parseDouble(duzina), p));
+		Staza s = sr.save(new Staza(Double.parseDouble(duzina), naziv, p));
 		String poruka = "Neuspesno dodata staza " + naziv + " u bazu.";
 		if(s != null) {
 			poruka = "Uspesno dodata staza " + naziv + " u bazu";

@@ -1,9 +1,11 @@
 package com.pds.controllers;
 
+import java.io.IOException;
 import java.util.Date;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,9 +14,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pds.repositories.IzvestajRepository;
 import com.pds.repositories.KorisnikRepository;
+import com.pds.repositories.SlikaRepository;
 
 import models.Izvestaj;
 import models.Korisnik;
+import models.Slika;
 
 @Controller
 @RequestMapping(value="Izvestaj")
@@ -24,7 +28,9 @@ public class IzvestajController {
 	private IzvestajRepository ir;
 	@Autowired
 	private KorisnikRepository kr;
-
+	@Autowired
+	private SlikaRepository slr;
+	
 	@RequestMapping(value="dodaj", method=RequestMethod.POST)
 	public String dodajIzvestaj(String naslov, String sadrzaj, String idKorisnika, HttpServletRequest request) {
 		Date datumNastanka = new Date();
@@ -85,6 +91,21 @@ public class IzvestajController {
 		}
 		request.setAttribute("poruka", poruka);
 		return "/admin/izvestaj.jsp";
+	}
+	
+	@RequestMapping(value="listaI", method=RequestMethod.GET) 
+	public void listaIzvestaja(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		List<Izvestaj> li = ir.findAll();
+		List<Slika> lsl = slr.findAll();
+		String poruka = "Neuspesno dobavljena lista izvestaja.";
+		if(li != null) {
+			li.sort((Izvestaj i1, Izvestaj i2) -> i2.getDatumNastanka().compareTo(i1.getDatumNastanka()));
+			poruka = "Uspesno dobavljena lista izvestaja.";
+			request.getSession().setAttribute("izvestaji", li);
+			request.getSession().setAttribute("slike", lsl);
+		}
+		request.setAttribute("poruka", poruka);
+		response.sendRedirect("/pdsWEB/index-2.jsp");
 	}
 	
 }

@@ -1,20 +1,27 @@
 package com.pds.controllers;
 
+import java.io.IOException;
 import java.util.Date;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pds.repositories.KomentarRepository;
 import com.pds.repositories.KorisnikRepository;
+import com.pds.repositories.ZnamenitostRepository;
+import com.pds.security.UserDetailsImpl;
 
 import models.Komentar;
 import models.Korisnik;
+import models.Znamenitost;
 
 @Controller
 @RequestMapping(value="Komentar")
@@ -24,18 +31,23 @@ public class KomentarController {
 	private KomentarRepository kor;
 	@Autowired
 	private KorisnikRepository kr;
-
-	@RequestMapping(value="dodaj", method=RequestMethod.POST)
-	public String dodajKomentar(String sadrzaj, String idKorisnika, HttpServletRequest request) {
+	@Autowired
+	private ZnamenitostRepository zr;
+	
+	@RequestMapping(value="dodaj", method=RequestMethod.GET)
+	public void dodajKomentar(String sadrzaj, String idZnamenitost, HttpServletRequest request, HttpServletResponse response) throws IOException {
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		String username = ((UserDetailsImpl) auth.getPrincipal()).getUsername();
 		Date datumNastanka = new Date();
-		Korisnik k = kr.findById(Integer.parseInt(idKorisnika)).get();
-		Komentar ko = kor.save(new Komentar(datumNastanka, sadrzaj, k));
-		String poruka = "Neuspesno dodat komentar sa sadrzajom " + sadrzaj + " u bazu.";
+		Znamenitost z = zr.findById(Integer.parseInt(idZnamenitost)).get();
+		Korisnik k = kr.findByUsername(username);
+		Komentar ko = kor.save(new Komentar(datumNastanka, sadrzaj, k, z));
+		String poruka = "Neuspesno dodat komentar sa sadrzajom " + sadrzaj;
 		if(ko != null) {
-			poruka = "Uspesno dodat komentar sa sadrzajom " + sadrzaj + " u bazu";
+			poruka = "Uspesno dodat komentar sa sadrzajom " + sadrzaj;
 		}
-		request.setAttribute("poruka", poruka);
-		return "/admin/komentar.jsp";
+		request.getSession().setAttribute("poruka", poruka);
+		response.sendRedirect("/pdsWEB/planine/staza.jsp");
 	}
 	
 	@RequestMapping(value="obrisi", method=RequestMethod.POST)

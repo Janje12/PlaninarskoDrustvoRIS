@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.domain.EntityScan"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="com.pds.controllers.KorisnikController"/>
 <fullyQualifiedTypeName name="org.exolab.castor.types.Date"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
-<fullyQualifiedTypeName name="com.pds.repositories.StazaRepository"/>
 <fullyQualifiedTypeName name="com.pds.repositories.PlaninaRepository"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.Authentication"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+<fullyQualifiedTypeName name="org.springframework.boot.web.servlet.server.Session"/>
+<fullyQualifiedTypeName name="org.springframework.beans.Mergeable"/>
+<fullyQualifiedTypeName name="com.pds.repositories.PlaninarskiDomRepository"/>
+<fullyQualifiedTypeName name="models.Planina"/>
+<fullyQualifiedTypeName name="com.pds.security.UserDetailsImpl"/>
+<fullyQualifiedTypeName name="com.pds.repositories.StazaRepository"/>
+<fullyQualifiedTypeName name="com.pds.repositories.ZnamenitostRepository"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

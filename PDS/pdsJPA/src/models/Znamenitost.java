@@ -15,17 +15,16 @@ public class Znamenitost implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="IDZNAMENITOST")
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int idZnamenitost;
 
 	private String naziv;
 
 	private String opis;
 
-	private String tip;
-	
 	private String potrebnaRezervacija;
+
+	private String tip;
 
 	//bi-directional many-to-one association to Komentar
 	@OneToMany(mappedBy="znamenitost")
@@ -42,12 +41,13 @@ public class Znamenitost implements Serializable {
 	public Znamenitost() {
 	}
 
-	public Znamenitost(String naziv2, String opis2, String tip2, Staza s, String potrebnaRezervacija2) {
-		naziv = naziv2;
-		opis = opis2;
-		tip = tip2;
-		staza = s;
-		potrebnaRezervacija = potrebnaRezervacija2;
+	public Znamenitost(String naziv, String opis, String potrebnaRezervacija, String tip, Staza s) {
+		super();
+		this.naziv = naziv;
+		this.opis = opis;
+		this.potrebnaRezervacija = potrebnaRezervacija;
+		this.tip = tip;
+		this.staza = s;
 	}
 
 	public int getIdZnamenitost() {
@@ -72,6 +72,14 @@ public class Znamenitost implements Serializable {
 
 	public void setOpis(String opis) {
 		this.opis = opis;
+	}
+
+	public String getPotrebnaRezervacija() {
+		return this.potrebnaRezervacija;
+	}
+
+	public void setPotrebnaRezervacija(String potrebnaRezervacija) {
+		this.potrebnaRezervacija = potrebnaRezervacija;
 	}
 
 	public String getTip() {
@@ -132,14 +140,6 @@ public class Znamenitost implements Serializable {
 
 	public void setStaza(Staza staza) {
 		this.staza = staza;
-	}
-
-	public String getPotrebnaRezervacija() {
-		return potrebnaRezervacija;
-	}
-
-	public void setPotrebnaRezervacija(String potrebnaRezervacija) {
-		this.potrebnaRezervacija = potrebnaRezervacija;
 	}
 
 }

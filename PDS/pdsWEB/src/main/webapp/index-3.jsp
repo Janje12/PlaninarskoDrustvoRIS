@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<title>Smestaj</title>
 		<meta charset="iso-8859-2">
@@ -69,81 +69,19 @@
 			</div>
 		</header>
 <!--==============================Content=================================-->
-		<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - March 24, 2014!</div>
+		<div class="content">
 			<div class="container_12">
 				<div class="gallery">
+					<c:forEach items="${planinarskidomovi}" var="pd">
 					<div class="grid_3">
-						<h2>Aliquam nibh antd dictum</h2>
-						<a href="images/big1.jpg" class="gal"><img src="images/page4_img1.jpg" alt=""></a>
-						Broin pharetra luctus diamesque eros convallikoaecenas vehicula egestas venenatis. Duis masser
+						<h2>${pd.naziv}</h2>
+						<p>${pd.planina.naziv}</p>
+						<a href="planine/planinarskiDom.jsp" class="gal"><img src="images/${pd.naziv}/1.png" alt="${pd.naziv}"></a>
+						${pd.opis}
 						<br>
-						<a href="#" class="btn">Learn More</a>
+						<a href="/pdsWEB/Rezervacija/stranica?id=${pd.idPlaninarskiDom}&vrsta=planinarskidom" class="btn">Rezervisi</a>
 					</div>
-					<div class="grid_3">
-						<h2>Praesent faucibus malesu</h2>
-						<a href="images/big2.jpg" class="gal"><img src="images/page4_img2.jpg" alt=""></a>
-						Kroin pharetra luctus diamesque eros convallikoaecenas vehicula egestas venenatis. Duis mass
-						<br>
-						<a href="#" class="btn">Learn More</a>
-					</div>
-					<div class="grid_3">
-						<h2>Hraesenibus malesua</h2>
-						<a href="images/big3.jpg" class="gal"><img src="images/page4_img3.jpg" alt=""></a>
-						Groin pharetra luctus diamesque eros convallikoaecenas vehicula egestas venenatis. Duis massylo
-						<br>
-						<a href="#" class="btn">Learn More</a>
-					</div>
-					<div class="grid_3">
-						<h2>Tam nibh antd dictumer</h2>
-						<a href="images/big4.jpg" class="gal"><img src="images/page4_img4.jpg" alt=""></a>
-						Xasroin pharetra luctudiamesque eros convallikoaecenas vehicula egestas venenatisss
-						<br>
-						<a href="#" class="btn">Learn More</a>
-					</div>
-					<div class="clear"></div>
-					<div class="grid_3">
-						<h2>Stibuluantd dictumertol</h2>
-						<a href="images/big5.jpg" class="gal"><img src="images/page4_img5.jpg" alt=""></a>
-						Kroin pharetra luctus diamesque eros convallikoaecenas vehicula egestas venenatis. Duis mass
-						<br>
-						<a href="#" class="btn">Learn More</a>
-					</div>
-					<div class="grid_3">
-						<h2>Vestibulum volutpat turpi</h2>
-						<a href="images/big6.jpg" class="gal"><img src="images/page4_img6.jpg" alt=""></a>
-						Froin pharetra luctus diamesque eros convallikoaecenas vehicula egestas venenatis. Duis massolo
-						<br>
-						<a href="#" class="btn">Learn More</a>
-					</div>
-					<div class="grid_3">
-						<h2>Ferquam nibh antd dictuo</h2>
-						<a href="images/big7.jpg" class="gal"><img src="images/page4_img7.jpg" alt=""></a>
-						Rein pharetra luctus diamesque eros convallikoaecenas vehicula egestas venenatisis massde
-						<br>
-						<a href="#" class="btn">Learn More</a>
-					</div>
-					<div class="grid_3">
-						<h2>Deram nibh antd dictumo</h2>
-						<a href="images/big8.jpg" class="gal"><img src="images/page4_img8.jpg" alt=""></a>
-						Jroin pharetra luctus diamesque eros convallikoaecenas vehicula egestas venenatis. Duis masolo
-						<br>
-						<a href="#" class="btn">Learn More</a>
-					</div>
-					<div class="clear"></div>
-					<div class="grid_3">
-						<h2>Gertolobh antd dictumew</h2>
-						<a href="images/big9.jpg" class="gal"><img src="images/page4_img9.jpg" alt=""></a>
-						Geroin pharetra luctusdiamesque erosallikoaecenas vehicul egestas venenatis. Duis masswertloi
-						<br>
-						<a href="#" class="btn">Learn More</a>
-					</div>
-					<div class="grid_3">
-						<h2>Aliquam nibh antd dictum</h2>
-						<a href="images/big10.jpg" class="gal"><img src="images/page4_img10.jpg" alt=""></a>
-						Kroin pharetra luctus diamesque eros convallikoaecenas vehicula egestas venenatis. Duis mass
-						<br>
-						<a href="#" class="btn">Learn More</a>
-					</div>
+					</c:forEach>
 				</div>
 			</div>
 		</div>
@@ -166,17 +104,16 @@
 				<h3>Ostanite povezani</h3>
 				<div class="text1">Pratite nas na Socijalnim mrezama!</div>
 				<div class="socials">
-					<a href="#">
-					<div class="fa fa-twitter"></div></a> <a href="#">
-					<div class="fa fa-facebook"></div></a> <a href="#">
-					<div class="fa fa-pinterest-square"></div></a> <a href="#">
-					<div class="fa fa-google-plus"></div></a> <a href="#">
-					<div class="fa fa-instagram"></div></a>
+					<a href="#"><div class="fa fa-twitter"></div></a> 
+					<a href="#"><div class="fa fa-facebook"></div></a> 
+					<a href="#"><div class="fa fa-pinterest-square"></div></a> 
+					<a href="#"><div class="fa fa-google-plus"></div></a> 
+					<a href="#"><div class="fa fa-instagram"></div></a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!--==============================footer=================================-->
+<!--==============================footer=================================-->
 	<footer>
 
 	</footer>
