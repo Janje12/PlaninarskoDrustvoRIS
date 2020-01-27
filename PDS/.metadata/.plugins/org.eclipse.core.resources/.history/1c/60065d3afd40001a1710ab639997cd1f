@@ -69,7 +69,7 @@ public class ZnamenitostController {
 		String poruka = "Neuspesno dobavljena lista znamenitosti.";
 		if(lz != null) {
 			poruka = "Uspesno dobavljena lista znamenitosti.";
-			request.getSession().setAttribute("znamenitosti", lz);
+			request.setAttribute("znamenitosti", lz);
 		}
 		request.setAttribute("poruka", poruka);
 		return "admin/znamenitost";

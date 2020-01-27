@@ -12276,3 +12276,84 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:25.680
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LkDbwHhl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:25.688
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LkDbwHhl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:25.692
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:25.695
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LkDbwHhl => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:30.338
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:30.342
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1c8ef880[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=1020)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:30.346
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.272
+!MESSAGE Boot LS startup time from start to initialized: 3918ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.318
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KWCHEDfWisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.323
+!MESSAGE subscribing to classpath changes: sts4.classpath.KWCHEDfW isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.327
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.331
+!MESSAGE subsribers = {sts4.classpath.KWCHEDfW=Send Classpath Notifications(5455)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.335
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.340
+!MESSAGE project pdsWEB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.344
+!MESSAGE Preparing classpath changed notification pdsWEB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.349
+!MESSAGE project pdsJPA ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.353
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.357
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.371
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KWCHEDfW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.375
+!MESSAGE classpath=139 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.393
+!MESSAGE buffering callback sts4.classpath.KWCHEDfW pdsWEB false 139
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.403
+!MESSAGE Preparing classpath changed notification pdsJPA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.409
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.418
+!MESSAGE classpath=40 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.426
+!MESSAGE buffering callback sts4.classpath.KWCHEDfW pdsJPA false 40
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.431
+!MESSAGE executing callback sts4.classpath.KWCHEDfW 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-27 12:53:34.491
+!MESSAGE executing callback sts4.classpath.KWCHEDfW SUCCESS [done]

@@ -115,11 +115,5 @@ public class RezervacijaController {
 		response.sendRedirect("/pdsWEB/rezervacija.jsp");
 	}
 	
-	@RequestMapping(value="znamenitosti", method=RequestMethod.GET) 
-	public void prikaziRezervisaneZnamenitosti(String idZnamenitost, HttpServletResponse response, HttpServletRequest request) throws IOException {
-		Znamenitost z = zr.findById(Integer.parseInt(idZnamenitost)).get();
-		List<Rezervacija> lr = rr.findByZnamenitost(z);
-		request.getSession().setAttribute("rezervacije", lr);
-		response.sendRedirect("/pdsWEB/admin/znamenitost.jsp");
-	}
+	@RequestMapping(value="znamenitost", method=RequestMethod.GET) 
 }

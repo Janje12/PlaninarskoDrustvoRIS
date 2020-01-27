@@ -63,16 +63,16 @@ public class ZnamenitostController {
 		return "/admin/znamenitost.jsp";
 	}
 
-	@RequestMapping(value="lista", method=RequestMethod.GET) 
+	@RequestMapping(value="lista", method=RequestMethod.POST) 
 	public String listaZnamenitosti(HttpServletRequest request) {
 		List<Znamenitost> lz = zr.findAll();
 		String poruka = "Neuspesno dobavljena lista znamenitosti.";
 		if(lz != null) {
 			poruka = "Uspesno dobavljena lista znamenitosti.";
-			request.getSession().setAttribute("znamenitosti", lz);
+			request.setAttribute("znamenitosti", lz);
 		}
 		request.setAttribute("poruka", poruka);
-		return "admin/znamenitost";
+		return "/admin/znamenitost.jsp";
 	}
 	
 }
