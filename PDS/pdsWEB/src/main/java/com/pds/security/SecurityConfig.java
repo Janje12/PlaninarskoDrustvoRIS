@@ -26,8 +26,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http
+		.csrf().disable()
 		.authorizeRequests()
-		.antMatchers("/**").permitAll()
+		.antMatchers("images/**" , "/auth/**").permitAll()
+		.antMatchers("/Izvestaj/**", "/Komentar/**", "/Korisnik/**"
+				,"/Planina/**", "/PlaninarskiDom/**", "/Rezervacija/**", "/Slika/**", "/Staza/**", "/Uloga/**", "/Znamenitost/**")
+		.hasAnyRole("planinar", "sekretar")
+		.antMatchers("/admin").hasRole("sekretar")
 		.and()
 		.formLogin()
 		.loginPage("/auth/login")

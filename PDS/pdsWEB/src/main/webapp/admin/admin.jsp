@@ -87,7 +87,11 @@
 	<div class="clear"></div>
 		<table>
 			<tr><th>Podesavanja</th>
-			<td rowspan=9 style="width:100%">STATISTIKA WIP</td>
+			<td rowspan=9 style="width:100%">
+				<c:forEach items="${statistika}" var="s">
+					${s.key} ${s.value}<br>
+				 </c:forEach>
+			</td>
 			</tr>
 			<tr><td><a href="/pdsWEB/Korisnik/lista">Korisnici</a></td></tr>
 			<tr><td><a href="/pdsWEB/Izvestaj/lista">Izvestaji </td></tr>

@@ -79,6 +79,12 @@
 						<p style="text-align: justify;">${i.sadrzaj}</p> 
 					</div>
 				</c:forEach>
+				<h2>Opisi svoje iskustvo!</h2>
+				<form id="izvestaj" action="/pdsWEB/Izvestaj/dodaj" method="POST">
+					<input type="text" name="naslov" placeholder="Naslov">
+					<input type="submit" value="Post">
+				</form>
+				<textarea style="width: 100%; height: 350px;" name="sadrzaj" form="izvestaj">Opisite vase iskustvo ovde...</textarea>
 				</div>
 				<div class="grid_4 prefix_1">
 					<h2>Slike</h2>

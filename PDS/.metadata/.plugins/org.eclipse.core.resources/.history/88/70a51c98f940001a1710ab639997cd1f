@@ -1,0 +1,17 @@
+package com.pds.repositories;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.query.Param;
+
+import models.PlaninarskiDom;
+import models.Rezervacija;
+
+public interface RezervacijaRepository extends JpaRepository<Rezervacija, Integer> {
+	
+	public List<Rezervacija> findAllByVrstaRezervacije(String vrstaRezervacije);
+	
+	@Query("SELECT idRezervacija FROM rezervacija WHERE idPlaninarskiDom = ?1")
+	public int countPlaninarskiDom(int idPlaninarskiDom);
+}

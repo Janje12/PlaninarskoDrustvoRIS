@@ -15,7 +15,7 @@ public class Znamenitost implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int idZnamenitost;
 
 	private String naziv;
@@ -27,7 +27,7 @@ public class Znamenitost implements Serializable {
 	private String tip;
 
 	//bi-directional many-to-one association to Komentar
-	@OneToMany(mappedBy="znamenitost")
+	@OneToMany(mappedBy="znamenitost", fetch=FetchType.EAGER)
 	private List<Komentar> komentars;
 
 	//bi-directional many-to-one association to Rezervacija

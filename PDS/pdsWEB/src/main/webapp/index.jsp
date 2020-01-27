@@ -43,7 +43,7 @@
 						<sec:authorize access="isAuthenticated()">
 					 	<p align="right">Dobrodosli <sec:authentication property="principal.username"/>!
 					 	<sec:authorize access="hasRole('sekretar')">
-					 	<a href="admin/admin.jsp">Admin panela</a>
+					 	<a href="/pdsWEB/admin/panela?naziv=Admin">Admin panela</a>
 						</sec:authorize></p>
 						</sec:authorize>
 						<sec:authorize access="!isAuthenticated()">

@@ -8,6 +8,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -15,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.pds.repositories.IzvestajRepository;
 import com.pds.repositories.KorisnikRepository;
 import com.pds.repositories.SlikaRepository;
+import com.pds.security.UserDetailsImpl;
 
 import models.Izvestaj;
 import models.Korisnik;
@@ -32,16 +35,18 @@ public class IzvestajController {
 	private SlikaRepository slr;
 	
 	@RequestMapping(value="dodaj", method=RequestMethod.POST)
-	public String dodajIzvestaj(String naslov, String sadrzaj, String idKorisnika, HttpServletRequest request) {
+	public void dodajIzvestaj(String naslov, String sadrzaj, HttpServletRequest request, HttpServletResponse response) throws IOException {
 		Date datumNastanka = new Date();
-		Korisnik k = kr.findById(Integer.parseInt(idKorisnika)).get();
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		String username = ((UserDetailsImpl) auth.getPrincipal()).getUsername();
+		Korisnik k = kr.findByUsername(username);
 		Izvestaj i = ir.save(new Izvestaj(datumNastanka, naslov, sadrzaj, k));
 		String poruka = "Neuspesno dodat izvestaj sa naslovom " + naslov + " u bazu.";
 		if(i != null) {
 			poruka = "Uspesno dodat izvestaj sa naslovom " + naslov + " u bazu";
 		}
 		request.setAttribute("poruka", poruka);
-		return "/admin/izvestaj.jsp";
+		response.sendRedirect("/pdsWEB/index-2.jsp");
 	}
 	
 	@RequestMapping(value="obrisi", method=RequestMethod.POST)
