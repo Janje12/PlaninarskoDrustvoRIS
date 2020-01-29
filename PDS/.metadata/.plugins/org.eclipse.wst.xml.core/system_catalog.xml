@@ -202,5 +202,5 @@
   <system systemId="http://www.w3.org/2001/xml.xsd" uri="jar:file:/C:/Program Files/eclipse/plugins/org.eclipse.xsd_2.16.0.v20190625-1130.jar!/cache/www.w3.org/2001/xml.xsd"/>
   <uri name="http://www.w3.org/2001/XMLSchema" uri="jar:file:/C:/Program Files/eclipse/plugins/org.eclipse.xsd_2.16.0.v20190625-1130.jar!/cache/www.w3.org/2001/XMLSchema.xsd"/>
   <uri id="org.w3c.xinclude" name="http://www.w3.org/2001/XInclude" uri="jar:file:/C:/Program Files/eclipse/plugins/org.eclipse.wst.xsl.core_1.2.100.v201907231732.jar!/xslt-schemas/xinclude.xsd"/>
-  <public publicId="-//LOG4J//DTD LOG4J//EN" uri="jar:file:/C:/Program Files/eclipse/../../Users/Janje/.eclipse/org.eclipse.platform_4.13.0_1709980481_win32_win32_x86_64/plugins/org.springsource.ide.eclipse.commons.ui_3.9.11.201912160745-RELEASE.jar!/dtd/log4j-1.2.dtd" webURL="https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd"/>
+  <public publicId="-//LOG4J//DTD LOG4J//EN" uri="jar:file:/C:/Program Files/eclipse/../../Users/Janje/.eclipse/org.eclipse.platform_4.13.0_1709980481_win32_win32_x86_64/plugins/org.springsource.ide.eclipse.commons.ui_3.9.12.202001132314-CI-B489.jar!/dtd/log4j-1.2.dtd" webURL="https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd"/>
 </catalog>

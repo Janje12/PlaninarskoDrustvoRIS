@@ -1,9 +1,11 @@
 package com.pds.controllers;
 
 import java.text.ParseException;
+import java.io.IOException;
 import java.sql.Date;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,8 +22,8 @@ public class LoginController {
 	private KorisnikController kc;
 	
 	@RequestMapping(value="login", method=RequestMethod.GET)
-	public String login() {
-		return "login";
+	public void login(HttpServletResponse response) throws IOException {
+		response.sendRedirect("/pdsWEB/login.jsp");
 	}
 	
 	@RequestMapping(value="registracija", method=RequestMethod.POST)

@@ -28,7 +28,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 		http
 		.csrf().disable()
 		.authorizeRequests()
-		.antMatchers("images/**" , "/auth/**").permitAll()
+		.antMatchers("images/**" , "auth/**").permitAll()
 		.antMatchers("/Izvestaj/**", "/Komentar/**", "/Korisnik/**"
 				,"/Planina/**", "/PlaninarskiDom/**", "/Rezervacija/**", "/Slika/**", "/Staza/**", "/Uloga/**", "/Znamenitost/**")
 		.hasAnyRole("planinar", "sekretar")

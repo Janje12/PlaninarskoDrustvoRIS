@@ -78,17 +78,17 @@
 					<div class="slider">
 						<div class="item item1">
 							<div class="inner">
-								<div class="text1"><span>Join our campaigns and give <br>hope to homeless people</span></div>
+								<div class="text1"><span>Posetite Zlatibor  <br>najvece turisticka atrakacija</span></div>
 							</div>
 						</div>
 						<div class="item item2">
 							<div class="inner">
-								<div class="text1"><span>Make the right choice! <br>Help those who are in need.</span></div>
+								<div class="text1"><span>Tara planina <br>i njene lepote.</span></div>
 							</div>
 						</div>
 						<div class="item item3">
 							<div class="inner">
-								<div class="text1"><span>Our mission is to engage more people in the fight <br> for better life of needy people</span></div>
+								<div class="text1"><span>Sta ja radim sa zivotom brate <br> blablalalalalalal</span></div>
 							</div>
 						</div>
 					</div>
@@ -101,32 +101,12 @@
 			</div>
 		</div>
 <!--==============================Content=================================-->
-			<div class="container_12">
-				<div class="grid_6">
-					<h2>Meet Our Team</h2>
-					<img src="images/page1_img1.jpg" alt="" class="img_inner fleft">
-					<div class="extra_wrapper">
-						<p class="col2"><a href="#">Cras facilisis, nulla vel viverra tor, leo magna sodales felis, quis </a></p>
-						Proin pharetra luctus diamer scelerisque eros convallisa <br>
-						<a href="#" class="btn">Learn More</a>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="grid_5 prefix_1">
-					<h2>Our Mission</h2>
-					<div class="rel1">
-						<p>Following the <span class="col1"><a href="http://blog.templatemonster.com/free-website-templates/" >link</a></span> youÃ¢ÂÂll find all you wanted to know about free theme released by TemplateMonster.</p>
-						Need more themes of this kind? Find a variety of premium <span class="col1"><a href="http://www.templatemonster.com/properties/topic/society-people/" rel="nofollow">society &amp; people templates</a></span> at TemplateMonster.
-					</div>
-					<a href="#" class="btn">Learn More</a>
-				</div>
-			</div>
 			<div class="hor"></div>
 			<div class="container_12">
 				<div class="grid_3">
-					<h2>Latest News</h2>
+					<h2>Najonoviji izvestaji</h2>
 					<ul class="list">
-						<li>
+						<li><!-- Bean koji hvata najnovije izvestaje i kaci ovde -->
 							<time datetime="2014-01-01">29<span>Jan</span></time>
 							<div class="extra_wrapper">
 								<div class="title col2"><a href="#">Vivamuagna</a></div>
@@ -157,14 +137,15 @@
 							</div>
 						</li>
 					</ul>
-					<blockquote class="bq1">
-						<div class="title">Testimonials</div>
+					<blockquote class="bq1"><!-- Hvata najnoviju sliku iz Bean-a -->
+						<div class="title">Najbolja slika</div>
 						<p>Nulla vel viverra auctorleo magna sodales felis, quis malesuada nibh odio ut </p>
 						<div class="col2">Sandra Wood</div>
 					</blockquote>
 				</div>
 				<div class="grid_9">
-					<h2>Our Campaigns</h2>
+				<!-- Bean koji hvata smestaj i ubacuje slike i kratak opis -->
+					<h2>Smestaji</h2>
 					<section>
 						<ul id="da-thumbs" class="da-thumbs">
 							<li>
@@ -257,7 +238,42 @@
 	</div>
 	<!--==============================footer=================================-->
 	<footer>
-
+		<div class="bottom_block">
+			<div class="container_12">
+				<div class="grid_4 ">
+					<h3>Ostanite informisani</h3>
+					<div class="text1">Dobijajte email-ove o ponudama, akcijama i
+						dogadjajima</div>
+					<form id="newsletter">
+						<div class="rel">
+							<div class="success">Poslato</div>
+							<label class="email"> <input type="email"
+								value="Unesite vas email"> <span class="error">Ovo
+									nije validna email adresa.</span>
+							</label>
+						</div>
+						<a href="#" class="btn" data-type="submit">Prijavi se</a>
+					</form>
+				</div>
+				<div class="grid_5 prefix_3">
+					<h3>Ostanite povezani</h3>
+					<div class="text1">Pratite nas na Socijalnim mrezama!</div>
+					<div class="socials">
+						<a href="#">
+							<div class="fa fa-twitter"></div>
+						</a> <a href="#">
+							<div class="fa fa-facebook"></div>
+						</a> <a href="#">
+							<div class="fa fa-pinterest-square"></div>
+						</a> <a href="#">
+							<div class="fa fa-google-plus"></div>
+						</a> <a href="#">
+							<div class="fa fa-instagram"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer>
 		<script src="js/jquery.hoverdir.js"></script>
 		<script>

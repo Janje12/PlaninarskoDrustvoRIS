@@ -1,31 +1,35 @@
-<%@ taglib prefix="sec"
-	uri="http://www.springframework.org/security/tags"%>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
 <head>
 <title>Kontakt</title>
-<meta charset="iso-8859-2">
+<meta charset="ISO-8859-2">
 <meta name="format-detection" content="telephone=no" />
 <link rel="icon" href="images/favicon.ico">
 <link rel="shortcut icon" href="images/favicon.ico" />
 <link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="css/thumbs.css">
+<link rel="stylesheet" href="css/slider.css">
 <link rel="stylesheet" href="css/style.css">
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate-1.2.1.js"></script>
 <script src="js/script.js"></script>
 <script src="js/superfish.js"></script>
 <script src="js/sForm.js"></script>
-<script src="js/TMForm.js"></script>
 <script src="js/jquery.ui.totop.js"></script>
 <script src="js/jquery.equalheights.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.iosslider.min.js"></script>
 <script>
-		$(document).ready(function(){
-			$().UItoTop({ easingType: 'easeOutQuart' });
-			});
-		</script>
+	$(document).ready(function() {
+		$().UItoTop({
+			easingType : 'easeOutQuart'
+		});
+	});
+</script>
 </head>
 <body class="" id="top">
 	<!--==============================header=================================-->
@@ -61,9 +65,10 @@
 					<nav class="horizontal-nav full-width horizontalNav-notprocessed">
 						<ul class="sf-menu">
 							<li><a href="index.jsp">Po&#269etna</a></li>
-							<li><a href="index-1.jsp">Planine</a></li>
-							<li><a href="index-2.jsp">Li&#269na Iskustva!</a></li>
-							<li><a href="index-3.jsp">Sme&#353taj</a></li>
+							<li><a href="/pdsWEB/Planina/listaP">Planine</a></li>
+							<li><a href="/pdsWEB/Izvestaj/listaI">Li&#269na
+									Iskustva!</a></li>
+							<li><a href="/pdsWEB/PlaninarskiDom/listaPD">Sme&#353taj</a></li>
 							<li class="current"><a href="index-4.jsp">Kontakt</a></li>
 						</ul>
 					</nav>
@@ -108,7 +113,8 @@
 					<div class="clear"></div>
 				</div>
 				<h2>Kontakt</h2>
-				Ako imate problema popunite formu ispod i neko od nasih sekretara ce vam ubrzo odgovoriti!
+				Ako imate problema popunite formu ispod i neko od nasih sekretara ce
+				vam ubrzo odgovoriti!
 				<form id="form">
 					<div class="success_wrapper">
 						<div class="success-message">Contact form submitted</div>
@@ -141,43 +147,44 @@
 			</div>
 		</div>
 	</div>
-	<div class="bottom_block">
-		<div class="container_12">
-			<div class="grid_4 ">
-				<h3>Ostanite informisani</h3>
-				<div class="text1">Dobijajte email-ove o ponudama, akcijama i
-					dogadjajima</div>
-				<form id="newsletter">
-					<div class="rel">
-						<div class="success">Poslato</div>
-						<label class="email"> <input type="email"
-							value="Unesite vas email"> <span class="error">Ovo
-								nije validna email adresa.</span>
-						</label>
+	<!--==============================footer=================================-->
+	<footer>
+		<div class="bottom_block">
+			<div class="container_12">
+				<div class="grid_4 ">
+					<h3>Ostanite informisani</h3>
+					<div class="text1">Dobijajte email-ove o ponudama, akcijama i
+						dogadjajima</div>
+					<form id="newsletter">
+						<div class="rel">
+							<div class="success">Poslato</div>
+							<label class="email"> <input type="email"
+								value="Unesite vas email"> <span class="error">Ovo
+									nije validna email adresa.</span>
+							</label>
+						</div>
+						<a href="#" class="btn" data-type="submit">Prijavi se</a>
+					</form>
+				</div>
+				<div class="grid_5 prefix_3">
+					<h3>Ostanite povezani</h3>
+					<div class="text1">Pratite nas na Socijalnim mrezama!</div>
+					<div class="socials">
+						<a href="#">
+							<div class="fa fa-twitter"></div>
+						</a> <a href="#">
+							<div class="fa fa-facebook"></div>
+						</a> <a href="#">
+							<div class="fa fa-pinterest-square"></div>
+						</a> <a href="#">
+							<div class="fa fa-google-plus"></div>
+						</a> <a href="#">
+							<div class="fa fa-instagram"></div>
+						</a>
 					</div>
-					<a href="#" class="btn" data-type="submit">Prijavi se</a>
-				</form>
-			</div>
-			<div class="grid_5 prefix_3">
-				<h3>Ostanite povezani</h3>
-				<div class="text1">Pratite nas na Socijalnim mrezama!</div>
-				<div class="socials">
-					<a href="#">
-						<div class="fa fa-twitter"></div>
-					</a> <a href="#">
-						<div class="fa fa-facebook"></div>
-					</a> <a href="#">
-						<div class="fa fa-pinterest-square"></div>
-					</a> <a href="#">
-						<div class="fa fa-google-plus"></div>
-					</a> <a href="#">
-						<div class="fa fa-instagram"></div>
-					</a>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!--==============================footer=================================-->
-	<footer> </footer>
+	</footer>
 </body>
 </html>

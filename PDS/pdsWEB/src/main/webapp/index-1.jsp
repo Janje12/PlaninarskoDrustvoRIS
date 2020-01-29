@@ -3,14 +3,16 @@
 	uri="http://www.springframework.org/security/tags"%>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <title>Planine</title>
-<meta charset="iso-8859-2">
+<meta charset="ISO-8859-2">
 <meta name="format-detection" content="telephone=no" />
 <link rel="icon" href="images/favicon.ico">
 <link rel="shortcut icon" href="images/favicon.ico" />
 <link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="css/thumbs.css">
+<link rel="stylesheet" href="css/slider.css">
 <link rel="stylesheet" href="css/style.css">
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate-1.2.1.js"></script>
@@ -20,6 +22,7 @@
 <script src="js/jquery.ui.totop.js"></script>
 <script src="js/jquery.equalheights.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.iosslider.min.js"></script>
 <script>
 	$(document).ready(function() {
 		$().UItoTop({
@@ -28,21 +31,26 @@
 	});
 </script>
 </head>
+
 <body class="" id="top">
 	<!--==============================header=================================-->
 	<header>
 		<div class="container_12">
 			<div class="grid_12">
 				<h1>
-					<a href="index.jsp"> <img src="images/logo.png" alt="Logo">
+					<a href="index.jsp"> <img src="images/logo.png" alt="logo">
 					</a>
 				</h1>
-				<div class="menu_block">
+				<div class="menu_block ">
+					<c:url value="/logout" var="logoutUrl" />
 					<sec:authorize access="isAuthenticated()">
 						<p align="right">
 							Dobrodosli
 							<sec:authentication property="principal.username" />
 							!
+							<sec:authorize access="hasRole('sekretar')">
+								<a href="/pdsWEB/admin/panela?naziv=Admin">Admin panela</a>
+							</sec:authorize>
 						</p>
 					</sec:authorize>
 					<sec:authorize access="!isAuthenticated()">
@@ -61,9 +69,10 @@
 					<nav class="horizontal-nav full-width horizontalNav-notprocessed">
 						<ul class="sf-menu">
 							<li><a href="index.jsp">Po&#269etna</a></li>
-							<li class="current"><a href="index-1.jsp">Planine</a></li>
-							<li><a href="index-2.jsp">Li&#269na Iskustva!</a></li>
-							<li><a href="index-3.jsp">Sme&#353taj</a></li>
+							<li  class="current"><a href="/pdsWEB/Planina/listaP">Planine</a></li>
+							<li><a href="/pdsWEB/Izvestaj/listaI">Li&#269na
+									Iskustva!</a></li>
+							<li><a href="/pdsWEB/PlaninarskiDom/listaPD">Sme&#353taj</a></li>
 							<li><a href="index-4.jsp">Kontakt</a></li>
 						</ul>
 					</nav>
@@ -83,10 +92,14 @@
 							class="img_inner fleft">
 						<div>
 							<p class="col2">
-								<h3><a href="/pdsWEB/Planina/stranica?idPlanina=${p.idPlanina}">${p.naziv}</a></h3>
+							<h3>
+								<a href="/pdsWEB/Planina/stranica?idPlanina=${p.idPlanina}">${p.naziv}</a>
+							</h3>
 							</p>
-						<p stlye="text-align: justify; ">${p.opis}</p> 
-						<br><a href="/pdsWEB/Planina/stranica?idPlanina=${p.idPlanina}" class="btn">Opsirnije</a>
+							<p stlye="text-align: justify; ">${p.opis}</p>
+							<br> <a
+								href="/pdsWEB/Planina/stranica?idPlanina=${p.idPlanina}"
+								class="btn">Opsirnije</a>
 						</div>
 						<div class="clear cl1"></div>
 					</c:forEach>
@@ -94,105 +107,44 @@
 			</div>
 		</div>
 	</div>
-	<!-- <div class="grid_5 prefix_1">
-					<h2>Upcoming Actions</h2>
-					<ul class="list l1 col2">
-						<li>
-							<time datetime="2014-01-01">20<span>Mar</span></time>
-							<div class="extra_wraper">
-								<a href="#">Lorem ipsum dolor sit amet, secteturipiscing elitno mollis erat mattis neque facilisis, sit amet ultricies erater </a>
-							</div>
-						</li>
-						<li>
-							<time datetime="2014-01-01">30<span>Mar</span></time>
-							<div class="extra_wraper">
-								<a href="#">Dorem ipsum dolor sit amet, secteturipiscing elitno mollis erat mattis neque facilisis, sit amet ultricies erater eroli</a>
-							</div>
-						</li>
-						<li>
-							<time datetime="2014-01-01">10<span>Apr</span></time>
-							<div class="extra_wraper">
-								<a href="#">Morem ipsum dolor sit amet, secteturipiscing elitno mollis erat mattis neque facilisis, sit amet ultricies eraterer lokoi </a>
-							</div>
-						</li>
-						<li>
-							<time datetime="2014-01-01">25<span>Apr</span></time>
-							<div class="extra_wraper">
-								<a href="#">Toloorem ipsum dolor sit amet, teturipiscing elitno mollis erat mattis neque facilisis, sit amet ultricies eraterwe retylo </a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="hor hr1"></div>
+	<!--==============================footer=================================-->
+	<footer>
+		<div class="bottom_block">
 			<div class="container_12">
-				<div class="grid_3 maxheight">
-					<h2>Our Services</h2>
-					<ul class="list1 col2">
-						<li><a href="#">Vivamuagnamere bertoli molo</a></li>
-						<li><a href="#">Mervamuagnarewq geertoli molotilo</a></li>
-						<li><a href="#">Fergnamerolomer ertoli molore</a></li>
-						<li><a href="#">Hertoamuagna bertoli tilok</a></li>
-						<li><a href="#">Dasvamuagnarew ertoli molov</a></li>
-					</ul>
+				<div class="grid_4 ">
+					<h3>Ostanite informisani</h3>
+					<div class="text1">Dobijajte email-ove o ponudama, akcijama i
+						dogadjajima</div>
+					<form id="newsletter">
+						<div class="rel">
+							<div class="success">Poslato</div>
+							<label class="email"> <input type="email"
+								value="Unesite vas email"> <span class="error">Ovo
+									nije validna email adresa.</span>
+							</label>
+						</div>
+						<a href="#" class="btn" data-type="submit">Prijavi se</a>
+					</form>
 				</div>
-				<div class="grid_4 prefix_1 suffix_1 ver maxheight">
-					<h2>About the Latest Action</h2>
-					<div class="block1">
-						<img src="images/page2_img4.jpg" alt="">
-						Maecenas vehicula egestas enatis. Duis mass uctor non pellentesque vel liquet sit amet erat. Nullam eget dignissim nisi, aliquam
+				<div class="grid_5 prefix_3">
+					<h3>Ostanite povezani</h3>
+					<div class="text1">Pratite nas na Socijalnim mrezama!</div>
+					<div class="socials">
+						<a href="#">
+							<div class="fa fa-twitter"></div>
+						</a> <a href="#">
+							<div class="fa fa-facebook"></div>
+						</a> <a href="#">
+							<div class="fa fa-pinterest-square"></div>
+						</a> <a href="#">
+							<div class="fa fa-google-plus"></div>
+						</a> <a href="#">
+							<div class="fa fa-instagram"></div>
+						</a>
 					</div>
-				</div>
-				<div class="grid_3 maxheight">
-					<h2>Testimonials</h2>
-					<blockquote class="bq2">
-						<p>Nulla vel viverra auctorleo agna sodales felis, quis malesuada nibh odio ut velit. Proin phar</p>
-						<div class="bq_bot">Mark Johnson, <a href="#" class="col1">info@demolink.org</a></div>
-					</blockquote>
-					<blockquote class="bq2">
-						<p>Mulla vel viverra auctorleo nign sodales felis, quis malesuadat nibh odio ut veliin pharew</p>
-						<div class="bq_bot">Patrick Pool, <a href="#" class="col1">info@demolink.org</a></div>
-					</blockquote>
-				</div>
-			</div>
-		</div> -->
-	<div class="bottom_block">
-		<div class="container_12">
-			<div class="grid_4 ">
-				<h3>Ostanite informisani</h3>
-				<div class="text1">Dobijajte email-ove o ponudama, akcijama i
-					dogadjajima</div>
-				<form id="newsletter">
-					<div class="rel">
-						<div class="success">Poslato</div>
-						<label class="email"> <input type="email"
-							value="Unesite vas email"> <span class="error">Ovo
-								nije validna email adresa.</span>
-						</label>
-					</div>
-					<a href="#" class="btn" data-type="submit">Prijavi se</a>
-				</form>
-			</div>
-			<div class="grid_5 prefix_3">
-				<h3>Ostanite povezani</h3>
-				<div class="text1">Pratite nas na Socijalnim mrezama!</div>
-				<div class="socials">
-					<a href="#">
-						<div class="fa fa-twitter"></div>
-					</a> <a href="#">
-						<div class="fa fa-facebook"></div>
-					</a> <a href="#">
-						<div class="fa fa-pinterest-square"></div>
-					</a> <a href="#">
-						<div class="fa fa-google-plus"></div>
-					</a> <a href="#">
-						<div class="fa fa-instagram"></div>
-					</a>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!--==============================footer=================================-->
-	<footer> </footer>
+	</footer>
 </body>
 </html>
