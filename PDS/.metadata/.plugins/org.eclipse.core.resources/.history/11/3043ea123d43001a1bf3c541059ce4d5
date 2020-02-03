@@ -43,7 +43,8 @@
 					<sec:authorize access="isAuthenticated()">
 						<p align="right">
 							Dobrodosli
-							<sec:authentication property="principal.username"/>!
+							<sec:authentication property="principal.username" />
+							!
 							<sec:authorize access="hasRole('sekretar')">
 								<a href="/pdsWEB/admin/panela?naziv=Admin">Admin panela</a>
 							</sec:authorize>
@@ -157,9 +158,9 @@
 					</time>
 					<div class="extra_wrapper">
 						<div class="title col2">
-							<a href="#">Sadjenje drveca nad Fruskim brdom</a>
+							<a href="#">Meloamuar</a>
 						</div>
-						
+						ferus at magne malesuada faui
 					</div></li>
 			</ul>
 			<blockquote class="bq1">

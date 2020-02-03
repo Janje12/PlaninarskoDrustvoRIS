@@ -92,9 +92,7 @@
 		<table>
 			<tr>
 				<th>Podesavanja</th>
-				<td rowspan=9 style="width: 100%">
-				<h3>Statistika nocenja po planinama:</h3>
-				<c:forEach
+				<td rowspan=9 style="width: 100%"><c:forEach
 						items="${statistika}" var="s">
 					${s.key} ${s.value}<br>
 					</c:forEach></td>

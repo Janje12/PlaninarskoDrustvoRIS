@@ -42,7 +42,7 @@
 					<c:url value="/logout" var="logoutUrl" />
 					<sec:authorize access="isAuthenticated()">
 						<p align="right">
-							Dobrodosli
+							Dobrodosl
 							<sec:authentication property="principal.username"/>!
 							<sec:authorize access="hasRole('sekretar')">
 								<a href="/pdsWEB/admin/panela?naziv=Admin">Admin panela</a>

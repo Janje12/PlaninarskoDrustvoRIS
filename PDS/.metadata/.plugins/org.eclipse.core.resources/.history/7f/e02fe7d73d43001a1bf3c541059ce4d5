@@ -32,7 +32,7 @@ public class LoginController {
 	    Date d = Date.valueOf(datumRodjenja);
 		Korisnik k = new Korisnik(d, ime, prezime, username);
 	    BCryptPasswordEncoder bcp = new BCryptPasswordEncoder();
-	    k.setSifra(bcp.encode(sifra));
+	    bcp.encode(k.setSifra(sifra));
 	    if(kc.registrujKorisnika(k, request))
 	    	return "redirect:../login.jsp";
 	    else 

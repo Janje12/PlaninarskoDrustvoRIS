@@ -43,7 +43,8 @@
 					<sec:authorize access="isAuthenticated()">
 						<p align="right">
 							Dobrodosli
-							<sec:authentication property="principal.username"/>!
+							<sec:authentication property="principal.username" />
+							!
 							<sec:authorize access="hasRole('sekretar')">
 								<a href="/pdsWEB/admin/panela?naziv=Admin">Admin panela</a>
 							</sec:authorize>
@@ -84,7 +85,7 @@
 					<div class="item item1">
 						<div class="inner">
 							<div class="text1">
-								<span>Posetite Zlatibor <br>najveca turisticka
+								<span>Posetite Zlatibor <br>najvece turisticka
 									atrakacija
 								</span>
 							</div>
@@ -129,9 +130,9 @@
 					</time>
 					<div class="extra_wrapper">
 						<div class="title col2">
-							<a href="#">Hike kroz Frusku Goru</a>
+							<a href="#">Vivamuagna</a>
 						</div>
-						
+						amus at magn malesuada fauc
 					</div>
 				</li>
 				<li><time datetime="2014-01-01">
@@ -139,27 +140,27 @@
 					</time>
 					<div class="extra_wrapper">
 						<div class="title col2">
-							<a href="#">Ciscenje Tare</a>
+							<a href="#">Dereamuagne</a>
 						</div>
-						
+						amus at magn malesuada faut
 					</div></li>
 				<li><time datetime="2014-01-01">
 						20<span>Feb</span>
 					</time>
 					<div class="extra_wrapper">
 						<div class="title col2">
-							<a href="#">Star gazing na Zlatiboru</a>
+							<a href="#">Hovamuagrt</a>
 						</div>
-						
+						emus at mago malesuada fau
 					</div></li>
 				<li><time datetime="2014-01-01">
 						05<span>Mar</span>
 					</time>
 					<div class="extra_wrapper">
 						<div class="title col2">
-							<a href="#">Sadjenje drveca nad Fruskim brdom</a>
+							<a href="#">Meloamuar</a>
 						</div>
-						
+						ferus at magne malesuada faui
 					</div></li>
 			</ul>
 			<blockquote class="bq1">
